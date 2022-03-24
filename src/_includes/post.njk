@@ -2,4 +2,12 @@
 layout: base.njk 
 ---
 
-<article>{{ content | safe}}</article>
+<article>
+  {{ content | safe}}
+</article>
+
+<aside>
+  {% for fact in facts %}
+    <p>{{ fact }}</p>
+  {% endfor %}
+</aside>
