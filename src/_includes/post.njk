@@ -7,7 +7,7 @@ layout: base.njk
 </article>
 
 <aside>
-  {% for fact in facts %}
+  {% for fact in facts | randomItem %}
     <p>{{ fact }}</p>
   {% endfor %}
 </aside>
