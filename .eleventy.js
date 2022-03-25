@@ -1,6 +1,6 @@
 module.exports = function (eleventyConfig) {
-  eleventyConfig.addPassthroughCopy("./src/css");
-  eleventyConfig.addWatchTarget("./src/css/");
+  eleventyConfig.addPassthroughCopy("./src/_includes/assets");
+  eleventyConfig.addWatchTarget("./src/_includes/assets/");
 
   eleventyConfig.addFilter("randomItem", (arr) => {
     arr.sort(() => {

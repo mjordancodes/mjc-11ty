@@ -1,12 +1,13 @@
 ---
-title: First Page
-layout: base.njk
+title: mJordan Codes
+layout: layouts/base.njk
 templateEngineOverride: njk,md
+permalink: /
 ---
 
 ## Blog Posts:
 
-{% include "postlist.njk" %}
+{% include "components/postlist.njk" %}
 
 ## Cat of the Day
 
