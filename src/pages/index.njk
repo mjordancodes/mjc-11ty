@@ -1,0 +1,23 @@
+---
+title: mJordan Codes
+layout: layouts/base.njk
+permalink: /
+---
+
+<h1>Things I DO:</h1>
+
+{% import "components/card.njk" as card %}
+
+{% for thing in thingsido %}
+    {{ card.card(thing.title, thing.description) }}
+{% endfor %}
+
+<!--
+## Blog Posts:
+
+{% include "components/postlist.njk" %}
+-->
+
+<!-- ## Cat of the Day
+
+<img src="{{ catpic }}" /> -->
