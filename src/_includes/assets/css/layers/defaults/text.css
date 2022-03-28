@@ -1,0 +1,26 @@
+/* 
+ General styles and defaults for the site. This is where basic styling for standard html tags will live and over all defaults. 
+*/
+
+body {
+  font-size: var(--font-default-size);
+}
+
+h1,
+h2,
+h3 {
+  font-weight: bold;
+  line-height: 1em;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+h3 {
+  font-size: 1.25em;
+}

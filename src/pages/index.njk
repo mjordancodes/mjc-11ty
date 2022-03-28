@@ -3,15 +3,23 @@ title: mJordan Codes
 layout: layouts/base.njk
 permalink: /
 ---
-{% import "components/Card.njk" as card %}
 
-<h2>Things I Do:</h2>
-{% for thing in thingsido %}
-  {{ card.card(thing.title, thing.description) }}
-{% endfor %}
+<article>
+  <h2>About Me:</h2>
+  <p>{{jordan.summary.first.short}}</p>
+</article>
 
+<article>
+  {% import "components/Card.njk" as card %}
+  <h2>Things I Do:</h2>
+  {% for thing in thingsido %}
+    {{ card.card(thing.title, thing.description) }}
+  {% endfor %}
+</article>
 
-{% include "components/FactsList.njk" %}
+<article>
+  {% include "components/FactsList.njk" %}
+</article>
 
 <!-- ## Cat of the Day
 
