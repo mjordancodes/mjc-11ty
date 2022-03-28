@@ -1,0 +1,303 @@
+{
+  "skills": {
+    "technical": [
+      "HTML",
+      "CSS",
+      "Sass",
+      "PostCSS",
+      "JavaScript",
+      "React (Gatsby)",
+      "Vue (Nuxt)",
+      "Node / npm",
+      "JAMstack",
+      "Netlify / Netlify CMS",
+      "Contentful",
+      "Greensock Animation",
+      "Git / Github"
+    ],
+    "design": [
+      "Design Systems",
+      "Atomic Design",
+      "Pattern Lab",
+      "Storybook",
+      "Sketch",
+      "Figma",
+      "Adobe Creative Suite"
+    ],
+    "other": [
+      "Public Speaking",
+      "Workshop Creation",
+      "Tutorial Writing",
+      "Curriculum Building",
+      "Leadership",
+      "Community Building"
+    ]
+  },
+  "speaking": {
+    "summary": "Spoken at numerous local meetups and conferences on a variety of topics includingCSS/JavaScript Animation, JAMstack Technologies, and the importance of Community work. A list of previous presentations can be found at:",
+    "url": "https://mjordan.codes/speaking"
+  },
+  "affiliations": [
+    {
+      "organization": "Women Who Code Boulder/Denver",
+      "title": "Director",
+      "dates": {
+        "start": "April 2020",
+        "end": "Present"
+      },
+      "bullets": [
+        "Oversee all volunteers and leads for the chapter.",
+        "Connect with other directors and local companies to coordinate regular chapter events.",
+        "Run monthly events as a Front End Lead in addition to my director duties."
+      ]
+    },
+    {
+      "organization": "Puppies and Portfolios",
+      "title": "Founder / Organizer",
+      "dates": {
+        "start": "January 2019",
+        "end": "September 2021"
+      },
+      "bullets": [
+        "Founder of group focused on assisting members seeking tech jobs in developing quality portfolio websites.",
+        "Organize and lead regular meetings focused on effective design and content for portfolios, as well as technical information on building the sites.",
+        "Assist with technical implementations of designs across various tech stacks."
+      ]
+    },
+    {
+      "organization": "PDX Node",
+      "title": "Co-Organizer",
+      "dates": {
+        "start": "June 2017",
+        "end": "September 2019"
+      },
+      "bullets": [
+        "Organize monthly presentation night and hack night by securing speakers and managing all logistics.",
+        "Engage with members on social media and IRC to promote events.",
+        "Connect with sponsors to secure funds for food, space for events, and prizes to be won.",
+        "Spearheaded organizing efforts to host a full day International Nodebots event, including enlisting volunteers and mentors, acquiring equipment, coordinating with sponsors, and leading the technical workshop."
+      ]
+    },
+    {
+      "organization": "Women Who Code Portland",
+      "title": "Leadership Team / Tech Lead",
+      "dates": {
+        "start": "January 2016",
+        "end": "September 2019"
+      },
+      "bullets": [
+        "General event support for regular events.",
+        "Co-led Open Source Study Nights in 2018.",
+        "Co-led CSS Study Nights in 2019."
+      ]
+    },
+    {
+      "organization": "Free Code Camp: Portland",
+      "title": "Mentor",
+      "dates": {
+        "start": "June 2016",
+        "end": "September 2019"
+      },
+      "bullets": [
+        "Led various technical talks on demand.",
+        "Assisted campers with various front end and design related problems.",
+        "Organized and led a spin-off event as part of the global hybrid online/in-person Free CodeCamp hackathon in October 2018 by gathering sponsors, securing a venue, and coordinating volunteers for a 48-hour event. Resulted in one of the teams at my event placing second globally."
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "organization": "Universe Exploration Company",
+      "title": "CSS Engineer",
+      "dates": {
+        "start": "August 2021",
+        "end": "Present"
+      },
+      "stack": ["HTML", "CSS", "JavaScript", "React", "Next.js", "Git/Github"],
+      "bullets": []
+    },
+    {
+      "organization": "Brandwise",
+      "title": "Front End Engineer (JavaScript)",
+      "dates": {
+        "start": "October 2019",
+        "end": "September 2020"
+      },
+      "stack": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Vue",
+        "jQuery",
+        "Webpack",
+        "Laravel Mix",
+        "Kendo UI",
+        "Visual Studio",
+        "Team Foundation Server"
+      ],
+      "bullets": [
+        "Configured Webpack via Laravel Mix across multiple front-end applications to automatically build JavaScript assets.",
+        "Coordinated with API developers to integrate Vue applications into larger C# Programs.",
+        "Updated and enforced standards for JavaScript development and best practices for CSS styling.",
+        "Managed a shared style library across multiple applications while working with UI designers to maintain consistency in new designs.",
+        "Researched and integrated new libraries as needed for new features, such as form validation and field masking.",
+        "Build interactive interfaces for user input across complex,interconnected systems."
+      ]
+    },
+    {
+      "organization": "Alchemy Code Lab",
+      "title": "Instructor / Curriculum Author",
+      "dates": {
+        "start": "August 2018",
+        "end": "December 2018"
+      },
+      "stack": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Vue",
+        "React",
+        "PostCSS",
+        "CSS Animation",
+        "Gatsby",
+        "Netlify",
+        "Git / Github",
+        "Command Line",
+        "Design",
+        "Teaching",
+        "Course Creation"
+      ],
+      "bullets": [
+        "Co-instructed bootcamp prep, bootcamp 1, and bootcamp 2classes.",
+        "Authored new curriculum in the 'devsigner' category for all course levels.",
+        "Updated existing curriculum to better reflect current industry standards.",
+        "Collaborated one-on-one with students to troubleshoot and design code."
+      ]
+    },
+    {
+      "organization": "Nike (Pro Unlimited)",
+      "title": "Applications Engineer / Prototyper",
+      "dates": {
+        "start": "November 2017",
+        "end": "August 2018"
+      },
+      "stack": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "React",
+        "Storybook",
+        "Stylus",
+        "Git / Github",
+        "UX Design",
+        "User Testing",
+        "Design Systems"
+      ],
+      "bullets": [
+        "Created rapid prototypes of new features and layouts across teams and applications to be used for A/B testing and user studies.",
+        "Expanded the internal CSS framework used by all Nike.com engineering teams to include modern CSS properties, such as flexbox, while still including acceptable fall backs for browsers back to IE7.",
+        "Programatically integrated new designs within existing applications.",
+        "Selected as a member of a proof of concept team that built and implemented a design system that could convert a standardReact component into a Storybook story, and a Sketch file. The system could also take a Sketch file and turn it into a React component."
+      ]
+    },
+    {
+      "organization": "Biamp (IT Motives)",
+      "title": "Web Developer",
+      "dates": {
+        "start": "August 2016",
+        "end": "January 2017"
+      },
+      "stack": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "jQuery",
+        "Backbone.js",
+        "Underscore.js",
+        "Gulp",
+        "UX Design"
+      ],
+      "bullets": [
+        "Upgraded non-web-based software to a responsive modernJavaScript interface.",
+        "Created reusable components to form the beginning of a design system.",
+        "Automated the build process for the project by implementing Gulp."
+      ]
+    },
+    {
+      "organization": "Treehouse",
+      "title": "Tech Degree Mentor",
+      "dates": {
+        "start": "April 2016",
+        "end": "September 2016"
+      },
+      "stack": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "jQuery",
+        "REST API Design",
+        "Responsive Design",
+        "Accessibility",
+        "SVG",
+        "HTML5 Video",
+        "Canvas"
+      ],
+      "bullets": [
+        "Collaborated with students in one-on-one sessions to help them learn how to problem solve and debug code.",
+        "Provided in-depth code reviews for student code on projects and assignments to evaluate best practices and if all requirements were met fully.",
+        "Provided feedback to course creators, and upper management as the Tech Degree program was in Beta at the time."
+      ]
+    },
+    {
+      "organization": "Tech Academy",
+      "title": "Student Care Director, Lead Remote Instructor",
+      "dates": {
+        "start": "June 2015",
+        "end": "January 2016"
+      },
+      "stack": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "jQuery",
+        "Node",
+        "PHP",
+        "WordPress",
+        "Python",
+        "MySQL",
+        "Git / Github",
+        "Scrum",
+        "Project Management"
+      ],
+      "bullets": [
+        "Facilitated distributed agile student teams in sprints to complete projects for real world clients.",
+        "Devised unique code challenges, mini-lessons, and extra projects to challenge students.",
+        "Worked directly with students to ensure success in the program."
+      ]
+    },
+    {
+      "organization": "Graphtek",
+      "title": "Web Developer and Designer",
+      "dates": {
+        "start": "January 2014",
+        "end": "March 2015"
+      },
+      "stack": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "jQuery",
+        "WordPress",
+        "Subversion",
+        "Adobe Creative Suite",
+        "Social Media Management",
+        "SEO",
+        "Cold Fusion"
+      ],
+      "bullets": [
+        "Navigated a legacy, in-house CMS and custom WordPress sites to perform content, structural, and design updates.",
+        "Created custom WordPress themes on a site by site basis."
+      ]
+    }
+  ]
+}

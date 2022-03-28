@@ -1,0 +1,52 @@
+{
+  "name": {
+    "first": "Jordan",
+    "last": "Levine"
+  },
+  "contact": [
+    {
+      "site": "CodePen",
+      "url": "https://codepen.io/mjordancodes",
+      "username": "mjordancodes"
+    },
+    {
+      "site": "Github",
+      "url": "https://github.com/mjordancodes",
+      "username": "mjordancodes"
+    },
+    {
+      "site": "Twitter",
+      "url": "https://twitter.com/mjordancodes",
+      "username": "mjordancodes"
+    },
+    {
+      "site": "Instagram",
+      "url": "https://www.instagram.com/mjordancodes/",
+      "username": "mjordancodes"
+    },
+    {
+      "site": "Art Instagram",
+      "url": "https://www.instagram.com/mjordancreates/",
+      "username": "mjordancreates"
+    },
+    {
+      "site": "Art Collections",
+      "url": "https://mjordancreates.onuniverse.com/",
+      "username": "mJordan Creates on Universe"
+    },
+    {
+      "site": "Dog Instagram",
+      "url": "https://www.instagram.com/cubandpebbles/",
+      "username": "CubAndPebbles"
+    },
+    {
+      "site": "Dog Website",
+      "url": "https://cubandpebbles.onuniverse.com/",
+      "username": "Cub and Pebbles on Universe"
+    }
+  ],
+  "location": {
+    "city": "Denver",
+    "state": "Colorado"
+  }
+}
