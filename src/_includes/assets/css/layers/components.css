@@ -1,0 +1,5 @@
+/* 
+ This file collects all the css partials for various components. Should match with files in the main components folder.
+*/
+
+@import url("components/card.css") layer(components.card);

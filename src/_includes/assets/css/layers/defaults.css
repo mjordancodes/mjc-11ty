@@ -1,0 +1,7 @@
+/* 
+ General styles and defaults for the site. This is where basic styling for standard html tags will live and over all defaults. 
+*/
+
+body {
+  font-size: var(--font-default-size);
+}

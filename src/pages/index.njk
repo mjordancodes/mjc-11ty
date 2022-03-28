@@ -3,13 +3,11 @@ title: mJordan Codes
 layout: layouts/base.njk
 permalink: /
 ---
-
-<h1>Things I DO:</h1>
-
 {% import "components/card.njk" as card %}
 
+<h1>Things I DO:</h1>
 {% for thing in thingsido %}
-    {{ card.card(thing.title, thing.description) }}
+  {{ card.card(thing.title, thing.description) }}
 {% endfor %}
 
 <!--
