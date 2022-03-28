@@ -10,7 +10,7 @@ permalink: /
 </article>
 
 <article>
-  {% import "components/Card.njk" as card %}
+  {% import "components/card.njk" as card %}
   <h2>Things I Do:</h2>
   {% for thing in thingsido %}
     {{ card.card(thing.title, thing.description) }}
@@ -18,7 +18,7 @@ permalink: /
 </article>
 
 <article>
-  {% include "components/FactsList.njk" %}
+  {% include "components/factslist.njk" %}
 </article>
 
 <!-- ## Cat of the Day
