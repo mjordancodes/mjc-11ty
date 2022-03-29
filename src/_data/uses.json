@@ -1,0 +1,110 @@
+{
+  "workstation": [
+    {
+      "item": "computer",
+      "description": "",
+      "link": ""
+    },
+    {
+      "item": "monitor",
+      "description": "",
+      "link": ""
+    },
+    {
+      "item": "desk",
+      "description": "",
+      "link": ""
+    },
+    {
+      "item": "keyboard",
+      "description": "",
+      "link": ""
+    },
+    {
+      "item": "mouse",
+      "description": "",
+      "link": ""
+    },
+    {
+      "item": "headphones",
+      "description": "",
+      "link": ""
+    },
+    {
+      "item": "headphone stand",
+      "description": "",
+      "link": ""
+    },
+    {
+      "item": "mouse pad",
+      "description": "",
+      "link": ""
+    },
+    {
+      "item": "webcam",
+      "description": "",
+      "link": ""
+    },
+    {
+      "item": "printer",
+      "description": "",
+      "link": ""
+    },
+    {
+      "item": "usb-c hub",
+      "description": "",
+      "link": ""
+    },
+    {
+      "item": "lamp",
+      "description": "",
+      "link": ""
+    },
+    {
+      "item": "tablet",
+      "description": "",
+      "link": ""
+    }
+  ],
+  "software": {
+    "productivity": [
+      {
+        "name": "1Password",
+        "description": "",
+        "link": ""
+      },
+      {
+        "name": "Bartender",
+        "description": "",
+        "link": ""
+      },
+      {
+        "name": "Alfred",
+        "description": "",
+        "link": ""
+      },
+      {
+        "name": "Notion",
+        "description": "",
+        "link": ""
+      },
+      {
+        "name": "",
+        "description": "",
+        "link": ""
+      }
+    ],
+    "programming": [
+      {
+        "name": "VS Code",
+        "description": "",
+        "link": ""
+      },
+      {
+        "name": "iTerm2",
+        "description": "",
+        "link": ""
+      }
+    ]
+  }
+}

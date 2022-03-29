@@ -1,0 +1,32 @@
+<div class="h-card">
+  <img src={{jordan.photos.profile}} class="u-photo" />
+  <div>
+    <p class="p-name">
+      <span class="p-given-name">{{jordan.name.first}}</span>
+      <span class="p-family-name">{{jordan.name.last}}</span>
+    </p>
+    <p>Website: <a href={{jordan.homepage.url}} class="u-url u-uid">{{jordan.homepage.readable}}</a></p>
+    <p>Preferred Pronouns:
+      <span class="p-gender-identity p-sex">{{jordan.gender}}</span>
+      <span class="u-pronoun">{{jordan.pronouns}}</span>
+    </p>
+    <p>Current Role: 
+      <span class="p-job-title">{{resume.experience[0].title}}</span>
+      at
+      <span class="p-org">{{resume.experience[0].organization}}</span>
+    </p>
+    <p>Volunteer Role: 
+      <span class="p-org">Director</span>
+      at
+      <span class="p-job-title">Women Who Code Boulder/Denver</span>
+    </p>
+  </div>
+  <div class="elsewhere-online">
+    <p>Find Me Online:</p>
+    <ul>
+      {% for contact in jordan.contact %}
+      <li>{{contact.site}}: <a href={{contact.url}}>{{contact.username}}</a></li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>

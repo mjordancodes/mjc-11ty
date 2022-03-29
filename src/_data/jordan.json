@@ -61,5 +61,12 @@
       "long": ""
     }
   },
-  "pronouns": "she/her"
+  "pronouns": "she/her",
+  "photos": {
+    "profile": "/_includes/assets/images/jordan.jpg"
+  },
+  "homepage": {
+    "url": "https://mjordan.codes",
+    "readable": "mJordan.codes"
+  }
 }

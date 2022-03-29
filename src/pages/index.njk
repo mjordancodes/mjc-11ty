@@ -6,19 +6,17 @@ permalink: /
 
 <article>
   <h2>About Me:</h2>
+  {% include "components/h-card.njk" %}
   <p>{{jordan.summary.first.short}}</p>
 </article>
 
 <article>
-  {% import "components/card.njk" as card %}
+  {% import "components/contentless/card.njk" as card %}
   <h2>Things I Do:</h2>
   {% for thing in thingsido %}
     {{ card.card(thing.title, thing.description) }}
   {% endfor %}
 </article>
 
-<article>
-{% include "components/factlist.njk" %}
-</article>
 
 

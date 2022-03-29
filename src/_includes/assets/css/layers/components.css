@@ -1,8 +1,5 @@
 /* 
  This file collects all the css partials for various components. Should match with files in the main components folder.
 */
-@layer components {
-  @layer card;
-}
-
 @import url("components/card.css") layer(components.card);
+@import url("components/h-card.css") layer(components.hcard);
