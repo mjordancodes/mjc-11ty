@@ -3,7 +3,7 @@
     "first": "Jordan",
     "last": "Levine"
   },
-  "contact": [
+  "social": [
     {
       "site": "CodePen",
       "url": "https://codepen.io/mjordancodes",
@@ -28,7 +28,9 @@
       "site": "Art Instagram",
       "url": "https://www.instagram.com/mjordancreates/",
       "username": "mjordancreates"
-    },
+    }
+  ],
+  "otherplaces": [
     {
       "site": "Art Collections",
       "url": "https://mjordancreates.onuniverse.com/",

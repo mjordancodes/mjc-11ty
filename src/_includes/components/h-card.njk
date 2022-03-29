@@ -24,9 +24,14 @@
   <div class="elsewhere-online">
     <p>Find Me Online:</p>
     <ul>
-      {% for contact in jordan.contact %}
-      <li>{{contact.site}}: <a href={{contact.url}}>{{contact.username}}</a></li>
+      {% for item in jordan.social %}
+      <li>{{item.site}}: <a href={{item.url}} rel="me">{{item.username}}</a></li>
       {% endfor %}
+
+      {% for item in jordan.otherplaces %}
+      <li>{{item.site}}: <a href={{item.url}}>{{item.username}}</a></li>
+      {% endfor %}
+
     </ul>
   </div>
 </div>
