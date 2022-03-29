@@ -1,0 +1,17 @@
+{% macro card(role) %}
+<div class="affiliation-card">
+  <h3 class="title">
+    {{ role.title }} at 
+    {{ role.organization }}
+    |
+    {{ role.dates.start }} - {{ role.dates.end }}
+  </h3>
+
+  <ul>
+    {% for bullet in role.bullets %}
+      <li>{{bullet}}</li>
+    {% endfor %}
+  </ul>
+  
+</div>
+{% endmacro %}

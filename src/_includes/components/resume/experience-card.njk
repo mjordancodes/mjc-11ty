@@ -1,0 +1,23 @@
+{% macro card(role) %}
+<div class="experience-card">
+  <h3 class="title">
+    {{ role.title }} at 
+    {{ role.organization }}
+    |
+    {{ role.dates.start }} - {{ role.dates.end }}
+  </h3>
+
+  <ul>
+    {% for bullet in role.bullets %}
+      <li>{{bullet}}</li>
+    {% endfor %}
+  </ul>
+
+  <ul>
+    {% for item in role.stack %}
+      <li>{{item}}</li>
+    {% endfor %}
+  </ul>
+
+</div>
+{% endmacro %}

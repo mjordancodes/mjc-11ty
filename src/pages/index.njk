@@ -5,17 +5,23 @@ permalink: /
 ---
 
 <article>
-  <h2>About Me:</h2>
   {% include "components/h-card.njk" %}
-  <p>{{jordan.summary.first.short}}</p>
+  <p>{{me.summary.first.short}}</p>
 </article>
 
 <article>
   {% import "components/contentless/card.njk" as card %}
   <h2>Things I Do:</h2>
-  {% for thing in thingsido %}
+  {% for thing in me.thingsido.professionally %}
     {{ card.card(thing.title, thing.description) }}
   {% endfor %}
+
+  <h2>For Fun:</h2>
+  <ul>
+    {% for thing in me.thingsido.forfun %}
+      <li>{{thing}}</li>
+    {% endfor %}
+  </ul>
 </article>
 
 

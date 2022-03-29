@@ -1,0 +1,50 @@
+<article id="resume">
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <section id="technical-skills">
+      <h3>Technical</h3>
+      {% for skill in resume.skills.technical %}
+        <li>{{skill}}</li>
+      {% endfor %}
+    </section>
+    <section id="design-skills">
+      <h3>Design</h3>
+      {% for skill in resume.skills.design %}
+        <li>{{skill}}</li>
+      {% endfor %}
+    </section>
+    <section id="other-skills">
+      <h3>Technical</h3>
+      {% for skill in resume.skills.other %}
+        <li>{{skill}}</li>
+      {% endfor %}
+    </section>
+  </section>
+
+  <section id="speaking">
+    <h2>Speaking</h2>
+    <p>
+      {{resume.speaking.summary}} 
+      <a href={{resume.speaking.url}}>/speaking</a>
+    </p>
+  </section>
+
+  <section id="affiliations">
+    {% import "components/resume/affiliation-card.njk" as affiliationCard %}
+    <h2>Professional Affiliations and Community Involvement</h2>
+    {% for role in resume.affiliations %}
+      {{ affiliationCard.card(role)}}
+    {% endfor %}
+  </section>
+
+    <section id="experience">
+    {% import "components/resume/experience-card.njk" as experienceCard %}
+    <h2>Experience</h2>
+    {% for role in resume.experience %}
+      {{ experienceCard.card(role)}}
+    {% endfor %}
+  </section>
+
+
+</article>
