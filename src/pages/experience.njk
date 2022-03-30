@@ -7,21 +7,27 @@ title: Resume / Experience
     <h2>Skills</h2>
     <section id="technical-skills">
       <h3>Technical</h3>
-      {% for skill in resume.skills.technical %}
-        <li>{{skill}}</li>
-      {% endfor %}
+      <ul>
+        {% for skill in resume.skills.technical %}
+          <li>{{skill}}</li>
+        {% endfor %}
+      </ul>
     </section>
     <section id="design-skills">
       <h3>Design</h3>
-      {% for skill in resume.skills.design %}
-        <li>{{skill}}</li>
-      {% endfor %}
+      <ul>
+        {% for skill in resume.skills.design %}
+          <li>{{skill}}</li>
+        {% endfor %}
+      </ul>
     </section>
     <section id="other-skills">
       <h3>Technical</h3>
-      {% for skill in resume.skills.other %}
-        <li>{{skill}}</li>
-      {% endfor %}
+      <ul>
+        {% for skill in resume.skills.other %}
+          <li>{{skill}}</li>
+        {% endfor %}
+      </ul>
     </section>
   </section>
 

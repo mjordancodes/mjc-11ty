@@ -1,0 +1,15 @@
+{% macro card(talk) %}
+<div class="experience-card">
+  <h3 class="title">
+    {{ talk.title }} 
+  </h3>
+
+  {% for tag in talk.tags %}
+    <span>{{ tag }}</span>
+  {% endfor %}
+  
+  <p>{{ talk.description }}</p>
+  
+  <a href={{ talk.slidesURL }} />View Slides</a>
+</div>
+{% endmacro %}

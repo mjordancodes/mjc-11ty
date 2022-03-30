@@ -1,3 +1,8 @@
 ---
 title: Speaking
 ---
+
+{% import "components/speaking/talk-card.njk" as talkCard %}
+{% for talk in talks %}
+  {{ talkCard.card(talk) }}
+{% endfor %}
