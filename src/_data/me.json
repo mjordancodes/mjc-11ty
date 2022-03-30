@@ -70,29 +70,5 @@
   "homepage": {
     "url": "https://mjordan.codes",
     "readable": "mJordan.codes"
-  },
-  "thingsido": {
-    "professionally": [
-      {
-        "title": "CSS Engineer at Universe",
-        "description": "I work primarily in CSS/HTML with a large side helping of React."
-      },
-      {
-        "title": "Lead Workshops and Talks",
-        "description": "I enjoy sharing what I know by leading talks and workshops in my local community about my favorite web development topics."
-      },
-      {
-        "title": "Organize Community Events",
-        "description": "I volunteer as a Director for my local Women Who Code chapter, and lead an event called Puppies & Portfolios."
-      }
-    ],
-    "forfun": [
-      "Read",
-      "Play games",
-      "Hang with my dogs",
-      "Paint",
-      "Draw",
-      "Create things"
-    ]
   }
 }

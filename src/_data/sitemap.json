@@ -1,0 +1,14 @@
+[
+  {
+    "url": "/",
+    "display": "Home"
+  },
+  {
+    "url": "/experience",
+    "display": "Resume"
+  },
+  {
+    "url": "/speaking",
+    "display": "Speaking"
+  }
+]

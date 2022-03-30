@@ -9,6 +9,13 @@
 <body>
   <header>
     <h1>{{ title }}</h1>
+    <ul>
+      {% for item in sitemap %}
+        <li>
+          <a href={{ item.url }}>{{ item.display }}</a>
+        </li>
+      {% endfor %}
+    </ul>
   </header>
   <main>
     {{ content | safe }}
