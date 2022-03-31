@@ -100,6 +100,10 @@
         "system": "Nintendo Switch"
       }
     ],
-    "teching": ["11ty", "React", "CSS Cascade Layers"]
+    "teching": ["11ty", "React", "CSS Cascade Layers"],
+    "crafting": {
+      "title": "Paper Crafts",
+      "description": "Working on a paper cutting and quilling project based on my favorite pokemon"
+    }
   }
 }
