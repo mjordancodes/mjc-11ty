@@ -197,7 +197,7 @@
         "Created rapid prototypes of new features and layouts across teams and applications to be used for A/B testing and user studies.",
         "Expanded the internal CSS framework used by all Nike.com engineering teams to include modern CSS properties, such as flexbox, while still including acceptable fall backs for browsers back to IE7.",
         "Programatically integrated new designs within existing applications.",
-        "Selected as a member of a proof of concept team that built and implemented a design system that could convert a standardReact component into a Storybook story, and a Sketch file. The system could also take a Sketch file and turn it into a React component."
+        "Selected as a member of a proof of concept team that built and implemented a design system that could convert a standard React component into a Storybook story, and a Sketch file. The system could also take a Sketch file and turn it into a React component."
       ]
     },
     {
