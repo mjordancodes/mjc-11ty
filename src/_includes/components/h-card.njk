@@ -1,13 +1,13 @@
 <div class="h-card">
   <img src={{me.photos.profile}} class="u-photo" />
+
   <div>
-    <p class="p-name">
+    <p class="p-name sm-title">
       <span class="p-given-name">{{me.name.first}}</span>
       <span class="p-family-name">{{me.name.last}}</span>
     </p>
     <p>Website: <a href={{me.homepage.url}} class="u-url u-uid">{{me.homepage.readable}}</a></p>
     <p>Preferred Pronouns:
-      <span class="p-gender-identity p-sex">{{me.gender}}</span>
       <span class="u-pronoun">{{me.pronouns}}</span>
     </p>
     <p>Current Role: 
@@ -21,11 +21,15 @@
       <span class="p-job-title">Women Who Code Boulder/Denver</span>
     </p>
   </div>
+  
   <div class="elsewhere-online">
-    <p>Find Me Online:</p>
-    <ul>
+    <p class="sm-title">Find Me Online:</p>
+    <ul class="no-bullets-list">
       {% for item in me.social %}
-      <li>{{item.site}}: <a href={{item.url}} rel="me">{{item.username}}</a></li>
+      <li>
+        {{item.site}}: 
+        <a href={{item.url}} rel="me">{{item.username}}</a>
+      </li>
       {% endfor %}
 
       {% for item in me.otherplaces %}

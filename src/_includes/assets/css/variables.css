@@ -1,8 +1,25 @@
 :root {
   /* FONTS */
   --font-default-size: 16px;
+  --font-sm-title: 1.25em;
+  --font-md-title: 1.5em;
+  --font-lg-title: 2em;
 
   /* COLORS */
-  --color-black: #333333;
-  --color-accent: #bada55;
+  --color-black: #001219;
+  --color-white: #ffffff;
+
+  --color-accent-0: #f3e7c5;
+  --color-accent-1: #ee9b00;
+  --color-accent-2: #ca6702;
+  --color-accent-3: #bb3e03;
+  --color-accent-4: #9b2226;
+  --color-main-0: #ccf2f7;
+  --color-main-1: #94c6d2;
+  --color-main-2: #0a6e96;
+  --color-main-3: #004573;
+  --color-main-4: #00304d;
+
+  --color-accent: var(--color-accent-3);
+  --color-main: var(--color-main-3);
 }

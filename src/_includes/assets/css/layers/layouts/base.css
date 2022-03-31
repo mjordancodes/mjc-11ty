@@ -13,6 +13,10 @@ body {
 }
 header {
   grid-area: header;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  background: var(--color-white);
 }
 
 main {

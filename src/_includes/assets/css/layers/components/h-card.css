@@ -1,6 +1,6 @@
 .h-card {
   --image-size: 100px;
-  --image-border-width: 5px;
+  --image-border-width: 7px;
   padding: 0.5em;
   display: grid;
   grid-template-areas:
@@ -12,6 +12,7 @@
 
 @media (min-width: 700px) {
   .h-card {
+    --image-size: 175px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -19,7 +20,7 @@
 }
 
 .h-card-byline {
-  --image-size: 50px;
+  --image-size: 100px;
   --image-border-width: 3px;
 }
 
@@ -29,7 +30,8 @@
   object-fit: cover;
   box-sizing: border-box;
   border-radius: 100%;
-  border: var(--image-border-width) solid var(--color-accent);
+  border: var(--image-border-width) solid var(--color-main);
+  background-color: var(--color-accent-0);
   grid-area: img;
 }
 
@@ -50,6 +52,5 @@
 }
 
 .h-card .p-name {
-  font-weight: bold;
-  font-size: 1.1em;
+  text-align: center;
 }

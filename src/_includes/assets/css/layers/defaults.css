@@ -3,3 +3,7 @@
 img {
   max-width: 100%;
 }
+* {
+  /* Try to transition all the things so screen size changes are quite as jarring */
+  transition: 0.5s;
+}
