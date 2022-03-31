@@ -3,22 +3,31 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{ title }}</title>
-  <link rel="stylesheet" href="_includes/assets/css/style.css" />
+  <title>{{ title }} | mJordan Codes</title>
+  <link rel="stylesheet" href="/_includes/assets/css/style.css" />
 </head>
 <body>
   <header>
-    <h1>{{ title }}</h1>
-    <ul>
+    <span>mJordan Codes</span>
+    <nav>
+      <ul>
       {% for item in sitemap %}
         <li>
           <a href={{ item.url }}>{{ item.display }}</a>
         </li>
       {% endfor %}
     </ul>
+    </nav>
   </header>
+
   <main>
+    <h1>{{ title }}</h1>
     {{ content | safe }}
   </main>
+
+  <aside>
+    {% include "components/about-aside.njk" %}
+  </aside>
+
 </body>
 </html>

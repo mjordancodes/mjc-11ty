@@ -1,0 +1,24 @@
+body {
+}
+
+@media (min-width: 700px) {
+  body {
+    display: grid;
+    grid-template-columns: 300px 2fr;
+    grid-template-areas:
+      "header header"
+      "aside main";
+    gap: 1em;
+  }
+}
+header {
+  grid-area: header;
+}
+
+main {
+  grid-area: main;
+}
+
+aside {
+  grid-area: aside;
+}

@@ -1,8 +1,4 @@
-@layer defaults {
-  @layer text;
-}
-
-@import url("/defaults/text.css") layer(defaults.text);
+@import url("defaults/text.css") layer(defaults.text);
 
 img {
   max-width: 100%;
