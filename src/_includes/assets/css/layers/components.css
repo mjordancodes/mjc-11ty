@@ -2,3 +2,4 @@
  This file collects all the css partials for various components. Should match with files in the main components folder.
 */
 @import url("components/h-card.css") layer(components.hcard);
+@import url("components/svg-icons.css") layer(components.icons);

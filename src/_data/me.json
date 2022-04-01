@@ -8,53 +8,57 @@
       "site": "CodePen",
       "url": "https://codepen.io/mjordancodes",
       "username": "mjordancodes",
-      "icon": ["fa-brands", "fa-codepen"]
+      "icon": "fa-brands fa-codepen"
     },
     {
       "site": "Github",
       "url": "https://github.com/mjordancodes",
       "username": "mjordancodes",
-      "icon": "fa-brands fa-codepen"
+      "icon": "fa-brands fa-github"
     },
     {
       "site": "Twitter",
       "url": "https://twitter.com/mjordancodes",
       "username": "mjordancodes",
-      "icon": "fa-brands fa-codepen"
+      "icon": "fa-brands fa-twitter"
     },
     {
       "site": "Instagram",
       "url": "https://www.instagram.com/mjordancodes/",
       "username": "mjordancodes",
-      "icon": "fa-brands fa-codepen"
+      "icon": "fa-brands fa-instagram"
     },
     {
       "site": "Art Instagram",
       "url": "https://www.instagram.com/mjordancreates/",
       "username": "mjordancreates",
-      "icon": "fa-brands fa-codepen"
+      "icon": "fa-brands fa-instagram"
     }
   ],
   "otherplaces": [
     {
       "site": "Art Collections",
       "url": "https://mjordancreates.onuniverse.com/",
-      "username": "mJordan Creates on Universe"
+      "username": "mJordan Creates",
+      "icon": "universe fa"
     },
     {
       "site": "Photography",
       "url": "https://threewoodenpigeons.com/",
-      "username": "Three Wooden Pigeons"
-    },
-    {
-      "site": "Dog Instagram",
-      "url": "https://www.instagram.com/cubandpebbles/",
-      "username": "CubAndPebbles"
+      "username": "Three Wooden Pigeons",
+      "icon": "fa-solid fa-camera-retro"
     },
     {
       "site": "Dog Website",
       "url": "https://cubandpebbles.onuniverse.com/",
-      "username": "Cub and Pebbles on Universe"
+      "username": "Cub and Pebbles",
+      "icon": "universe fa"
+    },
+    {
+      "site": "Dog Instagram",
+      "url": "https://www.instagram.com/cubandpebbles/",
+      "username": "CubAndPebbles",
+      "icon": "fa-brands fa-instagram"
     }
   ],
   "location": {

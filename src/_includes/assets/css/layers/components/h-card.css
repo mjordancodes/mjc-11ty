@@ -15,7 +15,10 @@
     --image-size: 175px;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    /* align-items: center; */
+  }
+  .h-card .p-name {
+    text-align: center;
   }
 }
 
@@ -33,6 +36,7 @@
   border: var(--image-border-width) solid var(--color-main);
   background-color: var(--color-accent-0);
   grid-area: img;
+  align-self: center;
 }
 
 .h-card-byline img {
@@ -49,8 +53,4 @@
 }
 .h-card p {
   margin: 0;
-}
-
-.h-card .p-name {
-  text-align: center;
 }

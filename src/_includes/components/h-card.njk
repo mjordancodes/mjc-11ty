@@ -13,27 +13,39 @@
     <p>Current Role: 
       <span class="p-job-title">{{resume.experience[0].title}}</span>
       at
-      <span class="p-org">{{resume.experience[0].organization}}</span>
+      {% if resume.experience[0].url %}
+        <a href={{ resume.experience[0].url }} target="_blank" rel="noopener noreferrer">
+          <span class="p-org">{{resume.experience[0].organization}}</span>
+        </a>
+      {% else %}
+        <span class="p-org">{{resume.experience[0].organization}}</span>
+      {% endif %}
     </p>
     <p>Volunteer Role: 
       <span class="p-org">Director</span>
       at
-      <span class="p-job-title">Women Who Code Boulder/Denver</span>
+      <a href="https://www.womenwhocode.com/boulder-denver/about" target="_blank" rel="noopener noreferrer">
+        <span class="p-job-title">Women Who Code Boulder/Denver</span>
+      </a>
     </p>
   </div>
   
   <div class="elsewhere-online">
     <p class="sm-title">Find Me Online:</p>
     <ul class="no-bullets-list">
+
       {% for item in me.social %}
       <li>
-        <i class={% for class in icon%} {{ class }} {% endfor%}></i>: 
-        <a href={{item.url}} rel="me">{{item.username}}</a>
+        <i class="icon {{item.icon}}" ></i> 
+        <a href={{item.url}} rel="me" target="_blank" rel="noopener noreferrer">{{item.username}}</a>
       </li>
       {% endfor %}
 
       {% for item in me.otherplaces %}
-      <li>{{item.site}}: <a href={{item.url}}>{{item.username}}</a></li>
+      <li>
+        <i class="icon {{item.icon}}" ></i> 
+        <a href={{item.url}} rel="me" target="_blank" rel="noopener noreferrer">{{item.username}}</a>
+      </li>
       {% endfor %}
 
     </ul>
