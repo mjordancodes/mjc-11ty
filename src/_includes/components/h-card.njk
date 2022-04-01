@@ -6,11 +6,21 @@
       <span class="p-given-name">{{me.name.first}}</span>
       <span class="p-family-name">{{me.name.last}}</span>
     </p>
-    <p>Website: <a href={{me.homepage.url}} class="u-url u-uid">{{me.homepage.readable}}</a></p>
-    <p>Preferred Pronouns:
+
+    <p>
+      <i class="fa-solid fa-computer"></i>
+      <a href={{me.homepage.url}} class="u-url u-uid">
+        {{me.homepage.readable}}
+      </a>
+    </p>
+
+    <p>
+      <i class="fa-solid fa-venus-mars"></i>
       <span class="u-pronoun">{{me.pronouns}}</span>
     </p>
-    <p>Current Role: 
+
+    <p>
+      <i class="fa-solid fa-briefcase"></i> 
       <span class="p-job-title">{{resume.experience[0].title}}</span>
       at
       {% if resume.experience[0].url %}
@@ -21,7 +31,9 @@
         <span class="p-org">{{resume.experience[0].organization}}</span>
       {% endif %}
     </p>
-    <p>Volunteer Role: 
+    
+    <p>
+      <i class="fa-solid fa-handshake-angle"></i>
       <span class="p-org">Director</span>
       at
       <a href="https://www.womenwhocode.com/boulder-denver/about" target="_blank" rel="noopener noreferrer">
