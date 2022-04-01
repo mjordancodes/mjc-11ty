@@ -1,0 +1,17 @@
+#now details summary {
+  list-style-type: "\2795";
+  cursor: pointer;
+}
+
+#now details .now-title {
+  font-weight: bold;
+}
+
+#now p {
+  margin: 0;
+}
+
+#now details p,
+#now details div {
+  margin-left: 10px;
+}

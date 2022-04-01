@@ -1,0 +1,63 @@
+<div id="now">
+  <h2>Now</h2>
+  <p>Things I am interested in currently</p>
+  <p>Last Updated: {{ me.now.updated }}</p>
+
+  <br />
+  <details>
+    <summary>
+      <span class="now-title">Reading:</span> {{ me.now.reading.title }}
+    </summary>
+    <div>
+      <p><span class="now-title">Author:</span> {{ me.now.reading.author }}</p>
+      {% if me.now.reading.series %}
+        <p>
+          <span class="now-title">Series:</span>
+          {{ me.now.reading.series }} | {{ me.now.reading.number }}
+        </p>
+      {% endif %}
+      <p>
+        <span class="now-title">Genre:</span> 
+        {% for item in me.now.reading.genre %}
+          {{ item }}
+        {% endfor %}
+      </p>
+      <p><span class="now-title">Pages:</span> {{ me.now.reading.pages }}</p>
+    </div>
+  </details>
+
+  <details>
+    <summary>
+      <span class="now-title">Playing:</span> {{ me.now.playing[0].title }}
+    </summary>
+    <div>
+      Also... <br />
+      {% for game in me.now.playing %} 
+        {% if loop.index != 1 %}
+          {{ game.title }}<br />
+        {% endif %}
+      {% endfor %}
+    </div>
+  </details>
+
+  <details>
+    <summary>
+      <span class="now-title">Tech-ing:</span> {{ me.now.teching[0] }}
+      </summary>
+    <div>
+      Also... <br />
+      {% for tech in me.now.teching %} 
+        {% if loop.index != 1 %}
+          {{ tech }}<br />
+        {% endif %}
+      {% endfor %}
+    </div>
+  </details>
+
+  <details>
+    <summary>
+      <span class="now-title">Crafting:</span> {{ me.now.crafting.title }}
+    </summary>
+    <p>{{ me.now.crafting.description }}</p>
+  </details>
+</div>
