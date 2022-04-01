@@ -6,3 +6,7 @@ public
 
 # MacOS Things
 .DS_Store
+
+
+# TEMP Hiding
+src/_data/tools.json

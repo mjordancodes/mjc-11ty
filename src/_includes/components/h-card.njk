@@ -27,7 +27,7 @@
     <ul class="no-bullets-list">
       {% for item in me.social %}
       <li>
-        {{item.site}}: 
+        <i class={% for class in icon%} {{ class }} {% endfor%}></i>: 
         <a href={{item.url}} rel="me">{{item.username}}</a>
       </li>
       {% endfor %}

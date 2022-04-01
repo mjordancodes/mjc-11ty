@@ -7,27 +7,32 @@
     {
       "site": "CodePen",
       "url": "https://codepen.io/mjordancodes",
-      "username": "mjordancodes"
+      "username": "mjordancodes",
+      "icon": ["fa-brands", "fa-codepen"]
     },
     {
       "site": "Github",
       "url": "https://github.com/mjordancodes",
-      "username": "mjordancodes"
+      "username": "mjordancodes",
+      "icon": "fa-brands fa-codepen"
     },
     {
       "site": "Twitter",
       "url": "https://twitter.com/mjordancodes",
-      "username": "mjordancodes"
+      "username": "mjordancodes",
+      "icon": "fa-brands fa-codepen"
     },
     {
       "site": "Instagram",
       "url": "https://www.instagram.com/mjordancodes/",
-      "username": "mjordancodes"
+      "username": "mjordancodes",
+      "icon": "fa-brands fa-codepen"
     },
     {
       "site": "Art Instagram",
       "url": "https://www.instagram.com/mjordancreates/",
-      "username": "mjordancreates"
+      "username": "mjordancreates",
+      "icon": "fa-brands fa-codepen"
     }
   ],
   "otherplaces": [
