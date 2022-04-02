@@ -68,7 +68,7 @@
   "summary": {
     "first": {
       "short": "I'm a creative front end developer and educator living in Denver, CO. I volunteer as a Director for my local Women Who Code chapter, and lead an event called Puppies & Portfolios. I have a great passion for everything CSS and rubber duck debugging.",
-      "medium": "first medium",
+      "medium": "<p>I'm a creative front end developer and educator living in Denver, CO. I volunteer as a Director for my local Women Who Code chapter, and lead an event called Puppies & Portfolios. I have a great passion for everything CSS and rubber duck debugging.</p> <p>Outside of work I like to nerd out on SVG Animations, Animal Crossing (or whatever game I am currently playing), and whatever book I am currently reading. I am a hobby photographer and dabble in various forms of arts and crafts when I have time. I love creating things whether it is in code or in art.</p>",
       "long": "first long"
     },
     "third": {

@@ -23,12 +23,12 @@
   </div>
   <hr />
   <div>
-    <div id="first-short" class="hide show">{{me.summary.first.short}}</div>
-    <div id="first-medium" class="hide">{{me.summary.first.medium}}</div>
-    <div id="first-long" class="hide">{{me.summary.first.long}}</div>
-    <div id="third-short" class="hide">{{me.summary.third.short}}</div>
-    <div id="third-medium" class="hide">{{me.summary.third.medium}}</div>
-    <div id="third-long" class="hide">{{me.summary.third.long}}</div>
+    <div id="first-short" class="hide show">{{ me.summary.first.short | safe }}</div>
+    <div id="first-medium" class="hide">{{ me.summary.first.medium | safe }}</div>
+    <div id="first-long" class="hide">{{ me.summary.first.long | safe }}</div>
+    <div id="third-short" class="hide">{{ me.summary.third.short | safe }}</div>
+    <div id="third-medium" class="hide">{{ me.summary.third.medium | safe }}</div>
+    <div id="third-long" class="hide">{{ me.summary.third.long | safe }}</div>
   </div>
   <hr />
 </div>
