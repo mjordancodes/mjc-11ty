@@ -14,3 +14,7 @@ Building a portfolio site. Using 11ty. Probably.
 ### Nunjucks:
 
 - [Nunjucks Docs on Mozilla](https://mozilla.github.io/nunjucks/templating.html)
+
+### Visuals
+
+- [Font Awesome](https://fontawesome.com/)
