@@ -19,3 +19,11 @@
   font-size: var(--font-lg-title);
   font-weight: bold;
 }
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
+}

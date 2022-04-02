@@ -68,13 +68,13 @@
   "summary": {
     "first": {
       "short": "I'm a creative front end developer and educator living in Denver, CO. I volunteer as a Director for my local Women Who Code chapter, and lead an event called Puppies & Portfolios. I have a great passion for everything CSS and rubber duck debugging.",
-      "medium": "",
-      "long": ""
+      "medium": "first medium",
+      "long": "first long"
     },
     "third": {
-      "short": "",
-      "medium": "",
-      "long": ""
+      "short": "third short",
+      "medium": "third medium",
+      "long": "third long"
     }
   },
   "pronouns": "she/her",

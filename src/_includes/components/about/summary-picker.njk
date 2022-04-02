@@ -1,0 +1,87 @@
+<div id="summary-picker">
+  <div class="summary-picker-options">
+      <div class="summary-picker-length-options">
+        <input type="radio" id="short" name="length" value="short"
+            checked>
+        <label for="short">Short</label>
+
+        <input type="radio" id="medium" name="length" value="medium">
+        <label for="medium">Medium</label>
+
+        <input type="radio" id="long" name="length" value="long">
+        <label for="long">Long</label>
+      </div>
+
+      <div class="summary-picker-person-options">
+        <input type="radio" id="first" name="person" value="first"
+            checked>
+        <label for="first">First</label>
+
+        <input type="radio" id="third" name="person" value="third">
+        <label for="third">Third</label>
+      </div>
+  </div>
+  <hr />
+  <div>
+    <div id="first-short" class="hide show">{{me.summary.first.short}}</div>
+    <div id="first-medium" class="hide">{{me.summary.first.medium}}</div>
+    <div id="first-long" class="hide">{{me.summary.first.long}}</div>
+    <div id="third-short" class="hide">{{me.summary.third.short}}</div>
+    <div id="third-medium" class="hide">{{me.summary.third.medium}}</div>
+    <div id="third-long" class="hide">{{me.summary.third.long}}</div>
+  </div>
+  <hr />
+</div>
+
+<script type="text/javascript">
+  let person = document.querySelectorAll('input[name="person"]');
+  let length = document.querySelectorAll('input[name="length"]');
+
+  let firstShort = document.getElementById("first-short");
+  let firstMedium = document.getElementById("first-medium");
+  let firstLong = document.getElementById("first-long");
+  let thirdShort = document.getElementById("third-short");
+  let thirdMedium = document.getElementById("third-medium");
+  let thirdLong = document.getElementById("third-long");
+
+  let summaries = [firstShort, firstMedium, firstLong, thirdShort, thirdMedium, thirdLong]
+  
+  let selectedPerson, selectedLength;
+  function radioChange(e) {
+    selectedPerson = document.querySelector('input[name="person"]:checked').value
+    selectedLength = document.querySelector('input[name="length"]:checked').value
+
+    for (let i=0; i<summaries.length; i++) {
+      summaries[i].classList.remove('show')
+    }
+
+    if (selectedPerson == "first" ) {
+      if (selectedLength == "short") {
+        firstShort.classList.add('show')
+      } else if (selectedLength == "medium") {
+        firstMedium.classList.add('show')
+      } else if (selectedLength == "long") {
+        firstLong.classList.add('show')
+      }
+    } else {
+      if (selectedLength == "short") {
+        thirdShort.classList.add('show')
+      } else if (selectedLength == "medium") {
+        thirdMedium.classList.add('show')
+      } else if (selectedLength == "long") {
+        thirdLong.classList.add('show')
+      }
+    }
+
+  }
+
+  person.forEach(item => {
+    item.addEventListener("change", radioChange)
+  })
+  length.forEach(item => {
+    item.addEventListener("change", radioChange)
+  })
+
+
+
+</script>
