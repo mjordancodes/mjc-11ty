@@ -1,12 +1,18 @@
 {% macro card(talk) %}
-<div class="experience-card">
-  <h3 class="title">
-    {{ talk.title }} 
-  </h3>
+<div class="talk-card">
+  <div class="card-header">
+    <h3 class="title">
+      {{ talk.title }} 
+    </h3>
+  </div>
 
-  {% for tag in talk.tags %}
-    <span>{{ tag }}</span>
-  {% endfor %}
+  <div class="tags">
+    {% for tag in talk.tags %}
+      <span class="tag">
+        {{ tag }}{% if loop.revindex != 1 %},{% endif %}
+      </span>
+    {% endfor %}
+  </div>
   
   <p>{{ talk.description }}</p>
   

@@ -1,0 +1,44 @@
+#talks {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1em;
+}
+
+.talk-card {
+  border: 2px solid var(--color-main-2);
+  padding: 0.25em;
+  display: grid;
+  grid-template-rows: auto auto 1fr auto;
+  grid-template-rows: subgrid;
+  grid-row: span 4;
+}
+
+.talk-card .card-header {
+  border-bottom: 1px solid var(--color-main-2);
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.talk-card h3 {
+  margin: 0;
+  text-align: center;
+}
+
+.talk-card .tag {
+  font-size: 0.75em;
+}
+
+.talk-card a {
+  display: inline-block;
+  margin: 0 auto;
+  text-decoration: none;
+  border: 2px solid var(--color-main-4);
+  border-radius: 5px;
+  padding: 0.5em;
+  background: var(--color-main-2);
+  color: var(--color-white);
+}
+
+.talk-card a:hover {
+  background: var(--color-main-3);
+}

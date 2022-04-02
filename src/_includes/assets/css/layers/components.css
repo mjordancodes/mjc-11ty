@@ -3,4 +3,5 @@
 */
 @import url("components/svg-icons.css") layer(components.icons);
 @import url("components/h-card.css") layer(components.hcard);
+@import url("components/talk-card.css") layer(components.talkcard);
 @import url("components/now.css") layer(components.now);
