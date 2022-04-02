@@ -1,17 +1,30 @@
 body {
   background: var(--color-accent-0);
+  padding: 0.5em;
 }
 
 @media (min-width: 700px) {
   body {
-    display: grid;
+    padding: 2em 3em;
+  }
 
+  #container {
+    display: grid;
     grid-template-columns: 300px 2fr;
     grid-template-rows: 150px 1fr;
     grid-template-areas:
       "header header"
       "aside main";
     gap: 1em;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+
+  main,
+  aside,
+  header {
+    -webkit-box-shadow: 0px 7px 16px -8px var(--color-main-4);
+    box-shadow: 0px 7px 16px -8px var(--color-main-4);
   }
 }
 
@@ -20,8 +33,6 @@ aside,
 header {
   padding: 10px;
   background: var(--color-white);
-  -webkit-box-shadow: 0px 7px 16px -8px var(--color-main-4);
-  box-shadow: 0px 7px 16px -8px var(--color-main-4);
 }
 
 header {

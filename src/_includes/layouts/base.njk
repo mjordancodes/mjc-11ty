@@ -10,27 +10,28 @@
   <link rel="stylesheet" href="/_includes/assets/css/style.css" />
 </head>
 <body>
-  <header>
-    <span class="lg-title">mJordan Codes</span>
-    <nav>
-      <ul>
-      {% for item in sitemap %}
-        <li>
-          <a href={{ item.url }}>{{ item.display }}</a>
-        </li>
-      {% endfor %}
-    </ul>
-    </nav>
-  </header>
+  <div id="container">
+    <header>
+      <span class="lg-title">mJordan Codes</span>
+      <nav>
+        <ul>
+        {% for item in sitemap %}
+          <li>
+            <a href={{ item.url }}>{{ item.display }}</a>
+          </li>
+        {% endfor %}
+      </ul>
+      </nav>
+    </header>
 
-  <main>
-    <h1>{{ title }}</h1>
-    {{ content | safe }}
-  </main>
+    <main>
+      <h1>{{ title }}</h1>
+      {{ content | safe }}
+    </main>
 
-  <aside>
-    {% include "components/about/about-aside.njk" %}
-  </aside>
-
+    <aside>
+      {% include "components/about/about-aside.njk" %}
+    </aside>
+  </div>
 </body>
 </html>

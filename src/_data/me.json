@@ -97,13 +97,14 @@
     },
     "playing": [
       {
-        "title": "Animal Crossing",
-        "system": "Nintendo Switch"
-      },
-      {
         "title": "Pokemon Arceus",
         "system": "Nintendo Switch"
       },
+      {
+        "title": "Animal Crossing",
+        "system": "Nintendo Switch"
+      },
+
       {
         "title": "Rune Factory 5",
         "system": "Nintendo Switch"
