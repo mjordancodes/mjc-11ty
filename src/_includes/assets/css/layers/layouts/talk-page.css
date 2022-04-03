@@ -1,3 +1,7 @@
-#talk-details .tags-block {
+#talk-details header {
   border-bottom: 3px solid;
+}
+
+#talk-details header p {
+  margin: 0;
 }

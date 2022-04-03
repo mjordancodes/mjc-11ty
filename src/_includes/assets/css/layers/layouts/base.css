@@ -20,32 +20,32 @@ body {
     margin: 0 auto;
   }
 
-  main,
-  aside .content,
-  header {
+  #container > main,
+  #container > aside .content,
+  #container > header {
     -webkit-box-shadow: 0px 7px 16px -8px var(--color-main-4);
     box-shadow: 0px 7px 16px -8px var(--color-main-4);
   }
 }
 
-main,
-aside .content,
-header {
+#container > main,
+#container > aside .content,
+#container > header {
   padding: 10px;
   background: var(--color-white);
 }
 
-header {
+#container > header {
   grid-area: header;
   position: -webkit-sticky; /* Safari */
   position: sticky;
   top: 0;
 }
 
-main {
+#container > main {
   grid-area: main;
 }
 
-aside {
+#container > aside {
   grid-area: aside;
 }

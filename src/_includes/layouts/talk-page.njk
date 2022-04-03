@@ -2,8 +2,12 @@
 layout: layouts/base.njk 
 ---
 <article id="talk-details">
-  {% import "components/tag-list.njk" as tagList %}
-  {{ tagList.tagList(tags, "presentation") }}
+  <header>
+    {% import "components/tag-list.njk" as tagList %}
+    {{ tagList.tagList(tags, "presentation") }}
+
+    <p>Creation Date: {{ originalDate }}</p>
+  </header>
 
   <p>
     {{summary}}
