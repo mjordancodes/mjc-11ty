@@ -1,6 +1,9 @@
 {
-  "permalink": "talks/{{ title | slugify }}/",
   "layout": "layouts/talk-page.njk",
   "featured": "false",
-  "tags": "presentation"
+  "tags": "presentation",
+  "permalink": "/talks/{{page.fileSlug}}/",
+  "eleventyComputed": {
+    "pageSlug": "/talks/{{ page.fileSlug }}"
+  }
 }

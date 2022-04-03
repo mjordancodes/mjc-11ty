@@ -8,14 +8,16 @@
 
   <div class="tags">
     {% for tag in talk.tags %}
+    {%- if tag != "presentation" -%}
       <span class="tag">
         {{ tag }}{% if loop.revindex != 1 %},{% endif %}
       </span>
+    {% endif %}
     {% endfor %}
   </div>
   
   <p>{{ talk.summary }}</p>
   
-  <a href={{ talk.slidesURL }} />View Slides</a>
+  <a href="{{ talk.pageSlug }}" />View Slides</a>
 </div>
 {% endmacro %}
