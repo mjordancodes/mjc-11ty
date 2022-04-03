@@ -3,5 +3,7 @@
 */
 @import url("components/svg-icons.css") layer(components.icons);
 @import url("components/h-card.css") layer(components.hcard);
-@import url("components/talk-card.css") layer(components.talkcard);
+@import url("components/content-cards.css") layer(components.cards);
+@import url("components/mixed-content-list.css")
+layer(components.mixedContentList);
 @import url("components/now.css") layer(components.now);

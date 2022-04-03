@@ -2,7 +2,7 @@
 <div class="tags-block">
   {% for tag in tags %}
     {%- if tag != exclude -%}
-      <a class="tag" href="/talks/topic/{{ tag | slugify }}/">
+      <a class="tag" href="/topic/{{ tag | slugify }}/">
         {{ tag }}{% if loop.revindex != 1 %},{% endif %}
       </a>
     {% endif %}

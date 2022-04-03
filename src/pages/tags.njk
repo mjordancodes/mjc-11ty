@@ -1,0 +1,16 @@
+---
+pagination:
+  data: collections
+  alias: tag
+  size: 1
+  filter:
+    - presentation
+    - all
+permalink: "/topic/{{ tag | slugify }}/"
+eleventyComputed: 
+  title: "Content About: {{ tag }}"
+---
+
+
+{% import "components/mixed-content-list.njk" as contentList %}
+{{ contentList.list(collections[ tag ], "presentation") }} 

@@ -1,16 +1,21 @@
 {% macro card(talk, excludeTagFromList) %}
-<div class="talk-card">
+<div class="talk-card card">
   <div class="card-header">
     <h3 class="title">
       {{ talk.title }} 
     </h3>
   </div>
 
+  
   {% import "components/tag-list.njk" as tagList %}
   {{ tagList.tagList(talk.tags, excludeTagFromList) }}
   
-  <p>{{ talk.summary }}</p>
+  <div class="card-content">
+    <p>{{ talk.summary }}</p>
+  </div>
   
-  <a href="{{ talk.pageSlug }}" class="view-slides-btn btn" />View Slides</a>
+  <div class="card-actions">
+    <a href="{{ talk.pageSlug }}" class="btn" />View Slides</a>
+  </div>
 </div>
 {% endmacro %}

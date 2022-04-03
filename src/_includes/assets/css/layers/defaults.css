@@ -1,4 +1,5 @@
 @import url("defaults/text.css") layer(defaults.text);
+@import url("defaults/buttons.css") layer(defaults.buttons);
 
 img {
   max-width: 100%;
@@ -6,15 +7,4 @@ img {
 * {
   /* Try to transition all the things so screen size changes are quite as jarring */
   transition: 0.5s;
-}
-
-a.btn {
-  display: inline-block;
-  text-align: center;
-  text-decoration: none;
-  border: 2px solid var(--color-main-4);
-  border-radius: 5px;
-  padding: 0.5em;
-  background: var(--color-main-2);
-  color: var(--color-white);
 }

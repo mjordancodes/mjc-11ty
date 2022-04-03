@@ -1,0 +1,14 @@
+a.btn {
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  border: 2px solid var(--color-main-4);
+  border-radius: 5px;
+  padding: 0.5em;
+  background: var(--color-main-2);
+  color: var(--color-white);
+}
+
+a.btn:hover {
+  background: var(--color-main-3);
+}

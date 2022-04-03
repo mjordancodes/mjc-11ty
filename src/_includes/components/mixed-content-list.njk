@@ -1,0 +1,16 @@
+{% macro list(tagCollection, excludeTagFromList) %}
+<div id="mixed-content">
+  
+  {% import "components/speaking/talk-card.njk" as talkCard %}
+
+  {% for item in tagCollection %}
+    {% if item.data.tags.includes("presentation") %}
+      {{ talkCard.card(item.data, excludeTagFromList) }}
+    {% elif  item.data.tags.includes("project") %}
+      <p>PROJECT</p>
+    {% endif %}
+  {% endfor %}
+
+</div>
+
+{% endmacro %}
