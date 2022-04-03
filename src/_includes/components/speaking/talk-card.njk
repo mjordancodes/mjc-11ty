@@ -1,4 +1,4 @@
-{% macro card(talk) %}
+{% macro card(talk, excludeTagFromList) %}
 <div class="talk-card">
   <div class="card-header">
     <h3 class="title">
@@ -7,10 +7,10 @@
   </div>
 
   {% import "components/tag-list.njk" as tagList %}
-  {{ tagList.tagList(talk.tags, "presentation") }}
+  {{ tagList.tagList(talk.tags, excludeTagFromList) }}
   
   <p>{{ talk.summary }}</p>
   
-  <a href="{{ talk.pageSlug }}" />View Slides</a>
+  <a href="{{ talk.pageSlug }}" class="view-slides-btn btn" />View Slides</a>
 </div>
 {% endmacro %}

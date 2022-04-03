@@ -28,15 +28,8 @@
   font-size: 0.85em;
 }
 
-.talk-card a {
-  display: inline-block;
+.talk-card .view-slides-btn {
   margin: 0 auto;
-  text-decoration: none;
-  border: 2px solid var(--color-main-4);
-  border-radius: 5px;
-  padding: 0.5em;
-  background: var(--color-main-2);
-  color: var(--color-white);
 }
 
 .talk-card a:hover {

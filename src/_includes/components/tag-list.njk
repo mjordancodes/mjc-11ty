@@ -2,10 +2,11 @@
 <div class="tags-block">
   {% for tag in tags %}
     {%- if tag != exclude -%}
-      <span class="tag">
+      <a class="tag" href="/talks/topic/{{ tag | slugify }}/">
         {{ tag }}{% if loop.revindex != 1 %},{% endif %}
-      </span>
+      </a>
     {% endif %}
   {% endfor %}
 </div>
 {% endmacro %}
+ 
