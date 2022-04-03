@@ -7,7 +7,7 @@ title: Experience
     <h2>Skills</h2>
     <section id="technical-skills">
       <h3>Technical</h3>
-      <ul>
+      <ul class="no-bullets-list">
         {% for skill in resume.skills.technical %}
           <li>{{skill}}</li>
         {% endfor %}
@@ -15,7 +15,7 @@ title: Experience
     </section>
     <section id="design-skills">
       <h3>Design</h3>
-      <ul>
+      <ul class="no-bullets-list">
         {% for skill in resume.skills.design %}
           <li>{{skill}}</li>
         {% endfor %}
@@ -23,7 +23,7 @@ title: Experience
     </section>
     <section id="other-skills">
       <h3>Technical</h3>
-      <ul>
+      <ul class="no-bullets-list">
         {% for skill in resume.skills.other %}
           <li>{{skill}}</li>
         {% endfor %}
@@ -31,16 +31,8 @@ title: Experience
     </section>
   </section>
 
-  <section id="speaking">
-    <h2>Speaking</h2>
-    <p>
-      {{resume.speaking.summary}} 
-      <a href={{resume.speaking.url}}>/speaking</a>
-    </p>
-  </section>
-
   <section id="affiliations">
-    {% import "components/resume/affiliation-card.njk" as affiliationCard %}
+    {% import "components/experience/affiliation-card.njk" as affiliationCard %}
     <h2>Professional Affiliations and Community Involvement</h2>
     {% for role in resume.affiliations %}
       {{ affiliationCard.card(role)}}
@@ -48,7 +40,7 @@ title: Experience
   </section>
 
     <section id="experience">
-    {% import "components/resume/experience-card.njk" as experienceCard %}
+    {% import "components/experience/experience-card.njk" as experienceCard %}
     <h2>Experience</h2>
     {% for role in resume.experience %}
       {{ experienceCard.card(role)}}

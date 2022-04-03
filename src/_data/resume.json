@@ -10,9 +10,10 @@
       "Vue (Nuxt)",
       "Node / npm",
       "JAMstack",
-      "Netlify / Netlify CMS",
+      "Netlify ",
+      "Netlify CMS",
       "Contentful",
-      "Greensock Animation",
+      "Greensock (GSAP)",
       "Git / Github"
     ],
     "design": [
@@ -32,10 +33,6 @@
       "Leadership",
       "Community Building"
     ]
-  },
-  "speaking": {
-    "summary": "Spoken at numerous local meetups and conferences on a variety of topics includingCSS/JavaScript Animation, JAMstack Technologies, and the importance of Community work. A list of previous presentations can be found at:",
-    "url": "https://mjordan.codes/speaking"
   },
   "affiliations": [
     {

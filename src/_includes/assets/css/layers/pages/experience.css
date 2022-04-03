@@ -1,0 +1,41 @@
+#resume > section {
+  margin: 0 0 20px;
+  padding: 0 0 10px;
+  border: 2px solid var(--color-black);
+}
+
+/* Skips the header but adds padding to everything else */
+#resume > section > *:not(:first-child) {
+  padding: 0 10px;
+}
+
+#resume h2 {
+  margin: 0 0 10px;
+  padding: 5px;
+  background: var(--color-main-0);
+  border-bottom: 2px solid var(--color-main-1);
+  text-align: center;
+}
+#resume h3 {
+  margin: 0 0 5px;
+}
+
+#resume #skills ul {
+  column-count: 2;
+  text-align: center;
+}
+
+#resume #skills h3 {
+  text-align: center;
+}
+
+#resume #skills section:not(:first-of-type) h3 {
+  margin-top: 15px;
+}
+
+@media (min-width: 700px) {
+  #resume #skills ul {
+    column-count: 3;
+    text-align: center;
+  }
+}
