@@ -6,15 +6,8 @@
     </h3>
   </div>
 
-  <div class="tags">
-    {% for tag in talk.tags %}
-    {%- if tag != "presentation" -%}
-      <span class="tag">
-        {{ tag }}{% if loop.revindex != 1 %},{% endif %}
-      </span>
-    {% endif %}
-    {% endfor %}
-  </div>
+  {% import "components/tag-list.njk" as tagList %}
+  {{ tagList.tagList(talk.tags, "presentation") }}
   
   <p>{{ talk.summary }}</p>
   

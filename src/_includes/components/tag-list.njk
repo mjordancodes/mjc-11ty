@@ -1,0 +1,11 @@
+{% macro tagList(tags, exclude) %}
+<div class="tags-block">
+  {% for tag in tags %}
+    {%- if tag != exclude -%}
+      <span class="tag">
+        {{ tag }}{% if loop.revindex != 1 %},{% endif %}
+      </span>
+    {% endif %}
+  {% endfor %}
+</div>
+{% endmacro %}
