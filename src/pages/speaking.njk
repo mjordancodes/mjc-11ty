@@ -6,7 +6,7 @@ title: Speaking
 
 <div id="talks">
   {% import "components/speaking/talk-card.njk" as talkCard %}
-  {% for talk in talks %}
-    {{ talkCard.card(talk) }}
+  {% for talk in collections.presentation %}
+    {{ talkCard.card(talk.data) }}
   {% endfor %}
 </div>

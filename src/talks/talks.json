@@ -1,0 +1,6 @@
+{
+  "permalink": "talks/{{ title | slugify }}/",
+  "layout": "layouts/talk-page.njk",
+  "featured": "false",
+  "tags": "presentation"
+}
