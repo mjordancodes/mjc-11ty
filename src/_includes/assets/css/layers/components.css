@@ -2,8 +2,14 @@
  This file collects all the css partials for various components. Should match with files in the main components folder.
 */
 @import url("components/svg-icons.css") layer(components.icons);
-@import url("components/h-card.css") layer(components.hcard);
+
 @import url("components/content-cards.css") layer(components.cards);
+@import url("components/h-card.css") layer(components.hcard);
+@import url("components/now.css") layer(components.now);
+@import url("components/experience/affiliation-card.css")
+layer(components.experience);
+@import url("components/experience/experience-card.css")
+layer(components.experience);
+
 @import url("components/mixed-content-list.css")
 layer(components.mixedContentList);
-@import url("components/now.css") layer(components.now);

@@ -3,9 +3,8 @@
   <h3 class="title">
     {{ role.title }} at 
     {{ role.organization }}
-    |
-    {{ role.dates.start }} - {{ role.dates.end }}
   </h3>
+  <span class="dates">{{ role.dates.start }} - {{ role.dates.end }}</span>
 
   <ul>
     {% for bullet in role.bullets %}

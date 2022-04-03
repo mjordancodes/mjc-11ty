@@ -3,9 +3,15 @@
   <h3 class="title">
     {{ role.title }} at 
     {{ role.organization }}
-    |
-    {{ role.dates.start }} - {{ role.dates.end }}
   </h3>
+  <span class="dates">{{ role.dates.start }} - {{ role.dates.end }}</span>
+
+
+  <ul class="no-bullets-list tech-stack">
+    {% for item in role.stack %}
+      <li>{{item}}{% if loop.revindex != 1 %},{% endif %}</li>
+    {% endfor %}
+  </ul>
 
   <ul>
     {% for bullet in role.bullets %}
@@ -13,11 +19,7 @@
     {% endfor %}
   </ul>
 
-  <ul class="no-bullets-list">
-    {% for item in role.stack %}
-      <li>{{item}}</li>
-    {% endfor %}
-  </ul>
+  
 
 </div>
 {% endmacro %}
