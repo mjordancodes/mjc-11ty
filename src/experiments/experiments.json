@@ -1,6 +1,5 @@
 {
   "layout": "layouts/experiment-page.njk",
-  "featured": "false",
   "tags": "experiment",
   "permalink": "/code/{{page.fileSlug}}/",
   "eleventyComputed": {

@@ -7,3 +7,7 @@ permalink: /
 
 {{ me.summary.first.short | safe }}
 
+<h2>Featured Content:</h2>
+<p>Some of my favorite experiments, projects, and talks. </p>
+{% import "components/mixed-content-list.njk" as contentList %}
+{{ contentList.list(collections.featured, "") }} 
