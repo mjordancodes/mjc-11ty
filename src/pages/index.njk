@@ -3,6 +3,7 @@ title: About Me
 permalink: /
 ---
 
-{% include "components/about/summary-picker.njk" %}
+{# {% include "components/about/summary-picker.njk" %} #}
 
+{{ me.summary.first.short | safe }}
 

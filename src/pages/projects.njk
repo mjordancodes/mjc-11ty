@@ -1,0 +1,9 @@
+---
+title: Projects and Experiments
+---
+
+{% import "components/mixed-content-list.njk" as contentList %}
+{{ contentList.list(collections.project, "project") }} 
+
+{% import "components/mixed-content-list.njk" as contentList %}
+{{ contentList.list(collections.experiment, "experiment") }} 

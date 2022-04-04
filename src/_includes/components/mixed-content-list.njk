@@ -2,12 +2,13 @@
 <div id="mixed-content">
   
   {% import "components/speaking/talk-card.njk" as talkCard %}
+  {% import "components/projects/project-card.njk" as projectCard %}
 
   {% for item in tagCollection %}
     {% if item.data.tags.includes("presentation") %}
       {{ talkCard.card(item.data, excludeTagFromList) }}
-    {% elif  item.data.tags.includes("project") %}
-      <p>PROJECT</p>
+    {% elif  item.data.tags.includes("experiment") %}
+      {{ projectCard.card(item.data, excludeTagFromList) }}
     {% endif %}
   {% endfor %}
 

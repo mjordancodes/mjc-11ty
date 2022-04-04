@@ -1,0 +1,30 @@
+---
+layout: layouts/base.njk 
+---
+<article id="experiment-details">
+  <header>
+    {% import "components/tag-list.njk" as tagList %}
+    {{ tagList.tagList(tags, "experiment") }}
+
+    <p>Creation Date: {{ originalDate }}</p>
+  </header>
+
+{% if experimentType === "codepen" %}
+  <p class="codepen" data-height="450" data-default-tab="result" data-slug-hash="{{codepenSlugHash}}" data-user="mjordancodes">
+    <span>See the Pen <a href="https://codepen.io/mjordancodes/pen/{{codepenSlugHash}}">
+    Nobody can be uncheered by a balloon</a> by mJordan (<a href="https://codepen.io/mjordancodes">@mjordancodes</a>)
+    on <a href="https://codepen.io">CodePen</a>.</span>
+  </p>
+  <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+
+  <p>
+    {{summary}}
+  </p>
+{% else %}
+  <p>
+    {{summary}}
+  </p>
+  {{ content | safe }}
+{% endif %}
+
+</article>

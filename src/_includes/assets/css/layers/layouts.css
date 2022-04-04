@@ -1,2 +1,3 @@
 @import url("layouts/base.css") layer(layouts.base);
 @import url("layouts/talk-page.css") layer(layouts.talkpage);
+@import url("layouts/experiment-page.css") layer(layouts.experimentPage);

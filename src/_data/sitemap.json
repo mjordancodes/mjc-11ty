@@ -10,5 +10,9 @@
   {
     "url": "/speaking",
     "display": "Speaking"
+  },
+  {
+    "url": "/projects",
+    "display": "Projects & Experiments"
   }
 ]

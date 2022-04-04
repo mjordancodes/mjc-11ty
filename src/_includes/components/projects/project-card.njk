@@ -1,0 +1,22 @@
+{% macro card(project, excludeTagFromList) %}
+<div class="project-card card">
+  <div class="card-header">
+    <h3 class="title">
+      {{ project.title }} 
+    </h3>
+  </div>
+
+  
+  {% import "components/tag-list.njk" as tagList %}
+  {{ tagList.tagList(project.tags, excludeTagFromList) }}
+  
+  <div class="card-content">
+    <img src="{{project.thumbnail}}" />
+    <p>{{ project.summary }}</p>
+  </div>
+  
+  <div class="card-actions">
+    <a href="{{ project.pageSlug }}" class="btn" />Details</a>
+  </div>
+</div>
+{% endmacro %}

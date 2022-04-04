@@ -21,6 +21,13 @@
 .card .tags-block {
   font-size: 0.85em;
 }
+
+.card .card-content img {
+  width: 100%;
+  aspect-ratio: 3 / 2;
+  object-fit: cover;
+}
+
 .card .card-actions {
   display: flex;
   justify-content: center;
