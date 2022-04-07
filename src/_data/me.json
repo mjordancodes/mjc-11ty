@@ -61,6 +61,18 @@
       "icon": "fa-brands fa-instagram"
     }
   ],
+  "gameIds": [
+    {
+      "source": "Nintendo",
+      "name": "Ruimte",
+      "code": "SW-6746-1526-0015"
+    },
+    {
+      "source": "Pokemon Go",
+      "name": "DangerousDucky8",
+      "code": "2910-2675-4966"
+    }
+  ],
   "location": {
     "city": "Denver",
     "state": "Colorado"
@@ -86,14 +98,14 @@
     "readable": "mJordan.codes"
   },
   "now": {
-    "updated": "March 31, 2022",
+    "updated": "April 6, 2022",
     "reading": {
-      "title": "The Shadow Rising",
+      "title": "The Fires of Heaven",
       "author": "Robert Jordan",
       "series": "The Wheel of Time",
-      "number": "4",
+      "number": "5",
       "genre": ["Fantasy", "Fiction", "Action & Adventure"],
-      "pages": "1032"
+      "pages": "926"
     },
     "playing": [
       {

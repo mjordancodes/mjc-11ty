@@ -1,0 +1,30 @@
+[
+  {
+    "title": "The Shadow Rising",
+    "author": "Robert Jordan",
+    "series": "The Wheel of Time",
+    "number": "4",
+    "genre": ["Fantasy", "Fiction", "Action & Adventure"],
+    "pages": "1032",
+    "dates": [
+      {
+        "start": "",
+        "end": "04/05/2022"
+      }
+    ]
+  },
+  {
+    "title": "The Fires of Heaven",
+    "author": "Robert Jordan",
+    "series": "The Wheel of Time",
+    "number": "5",
+    "genre": ["Fantasy", "Fiction", "Action & Adventure"],
+    "pages": "926",
+    "dates": [
+      {
+        "start": "04/06/2022",
+        "end": ""
+      }
+    ]
+  }
+]
