@@ -1,10 +1,19 @@
 ---
-title: About Me
+title: Home
 permalink: /
 ---
 
-{# {% include "components/about/summary-picker.njk" %} #}
+<p>
+  Hello! and welcome to my new, in-progress, corner of the internet! My name is Jordan and I like to build things. 
+</p>
 
+<p>
+  This site is another adventure into the JAMstack. Currently it is using 11ty + nunjucks and static data files. I do plan on hooking up a headless CMS... just as soon as I pick one...
+</p>
+
+
+<h2>About Me</h2>
+{# {% include "components/about/summary-picker.njk" %} #}
 {{ me.summary.first.medium | safe }}
 
 <h2>Featured Content:</h2>
