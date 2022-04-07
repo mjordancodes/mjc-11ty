@@ -11,8 +11,11 @@
 }
 
 @media (min-width: 700px) {
-  .h-card {
+  .h-card,
+  .h-card-extension {
     --image-size: 175px;
+    align-items: flex-start;
+    text-align: left;
   }
   .h-card .p-name {
     text-align: center;
@@ -32,7 +35,6 @@
   border-radius: 100%;
   border: var(--image-border-width) solid var(--color-main);
   background-color: var(--color-accent-0);
-  grid-area: img;
   align-self: center;
 }
 
@@ -41,13 +43,7 @@
   height: var(--image-size);
 }
 
-.h-card .content {
-  grid-area: content;
-}
-
-.h-card .elsewhere-online {
-  grid-area: online;
-}
-.h-card p {
+.h-card,
+.h-card-extension p {
   margin: 0;
 }
