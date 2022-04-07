@@ -7,6 +7,9 @@ public
 # MacOS Things
 .DS_Store
 
+# VS Code things
+.vscode/
+
 
 # TEMP Hiding
 src/_data/tools.json

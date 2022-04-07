@@ -42,7 +42,7 @@
     </p>
   </div>
   
-  <div class="elsewhere-online">
+  <div class="online">
     <p class="sm-title">Find Me Online:</p>
     <ul class="no-bullets-list">
 
@@ -53,13 +53,7 @@
       </li>
       {% endfor %}
 
-      {% for item in me.otherplaces %}
-      <li>
-        <i class="icon {{item.icon}}" ></i> 
-        <a href={{item.url}} rel="me" target="_blank" rel="noopener noreferrer">{{item.username}}</a>
-      </li>
-      {% endfor %}
-
     </ul>
   </div>
+
 </div>

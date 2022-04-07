@@ -27,15 +27,15 @@
       "url": "https://www.instagram.com/mjordancodes/",
       "username": "mjordancodes",
       "icon": "fa-brands fa-instagram"
-    },
+    }
+  ],
+  "otherplaces": [
     {
       "site": "Art Instagram",
       "url": "https://www.instagram.com/mjordancreates/",
       "username": "mjordancreates",
       "icon": "fa-brands fa-instagram"
-    }
-  ],
-  "otherplaces": [
+    },
     {
       "site": "Art Collections",
       "url": "https://mjordancreates.onuniverse.com/",

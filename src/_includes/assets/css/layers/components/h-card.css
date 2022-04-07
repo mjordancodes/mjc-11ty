@@ -1,21 +1,18 @@
-.h-card {
+.h-card,
+.h-card-extension {
   --image-size: 100px;
   --image-border-width: 7px;
   padding: 0.5em;
-  display: grid;
-  grid-template-areas:
-    "img content"
-    ". online";
-  grid-template-columns: var(--image-size) 1fr;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
   gap: 0.5em;
 }
 
 @media (min-width: 700px) {
   .h-card {
     --image-size: 175px;
-    display: flex;
-    flex-direction: column;
-    /* align-items: center; */
   }
   .h-card .p-name {
     text-align: center;

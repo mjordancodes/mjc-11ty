@@ -1,0 +1,21 @@
+<div class="h-card-extension">
+  <ul class="no-bullets-list">
+    {% for item in me.otherplaces %}
+      <li>
+        <i class="icon {{item.icon}}" ></i> 
+        <a href={{item.url}} rel="me" target="_blank" rel="noopener noreferrer">{{item.username}}</a>
+      </li>
+    {% endfor %}
+  </ul>
+
+  <div class="even-more-connections">
+    <p class="sm-title">Even More Ways to Connect</p>
+    <ul class="no-bullets-list">
+      {% for item in me.gameIds %}
+        <li>
+          {{ item.source }}: {{ item.code }}
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>
