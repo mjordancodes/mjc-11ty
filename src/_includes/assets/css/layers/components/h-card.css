@@ -43,7 +43,7 @@
   height: var(--image-size);
 }
 
-.h-card,
+.h-card p,
 .h-card-extension p {
   margin: 0;
 }
