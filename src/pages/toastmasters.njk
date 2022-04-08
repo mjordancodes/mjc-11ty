@@ -66,9 +66,10 @@ permalink: /speaking/toastmasters/
   </p>
 
   <p class="sm-title">Best Table Topics </p>
+  <p>Table Topics are questions posed to a person that must be answered immediatly. This is the on-the-fly speaking training in contrast to the prepared speeches. Each person gets a unique question and must answer by speaking for 1-2 minutes.
   <ul>
-    {% for win in toastmasters.awards.bestTT %}
-      <li>{{win}}</li>
+    {% for tt in toastmasters.awards.bestTT %}
+      <li>{{tt.date}} | {{tt.question}}</li>
     {% endfor %}
   </ul>
 </article>

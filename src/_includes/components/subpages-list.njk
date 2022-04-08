@@ -1,0 +1,17 @@
+{% macro list(mainTopic, sitemap) %}
+
+  <div class="subpage-menu">
+    {% for item in sitemap %}
+      {% if item.display == mainTopic %}
+        <ul class="no-bullets-list">
+          {% for subitem in item.subpages %}
+          <li>
+            <a href={{ subitem.url }} class="btn">{{ subitem.display }}</a>
+          </li>
+          {% endfor %}
+        </ul>
+      {% endif %}
+    {% endfor %} 
+  </div>
+
+{% endmacro %}

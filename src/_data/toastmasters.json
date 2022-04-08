@@ -107,6 +107,11 @@
     }
   ],
   "awards": {
-    "bestTT": ["04/07/2022"]
+    "bestTT": [
+      {
+        "date": "04/07/2022",
+        "question": "What gift have you given led to the most unexpected response?"
+      }
+    ]
   }
 }

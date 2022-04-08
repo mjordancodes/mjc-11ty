@@ -13,3 +13,5 @@ layer(components.experience);
 
 @import url("components/mixed-content-list.css")
 layer(components.mixedContentList);
+
+@import url("components/subpages-list.css") layer(components.subpagesList);
