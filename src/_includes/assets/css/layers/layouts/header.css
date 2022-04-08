@@ -1,9 +1,9 @@
 #page-header ul {
   display: flex;
-  justify-content: space-evenly;
+  flex-direction: column;
   align-items: center;
   font-weight: bold;
-  font-size: 1.2em;
+  font-size: 1.2rem;
 }
 
 #page-header ul li {
@@ -12,4 +12,11 @@
 
 #page-header a:hover {
   text-decoration: underline;
+}
+
+@media (min-width: 800px) {
+  #page-header ul {
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
 }

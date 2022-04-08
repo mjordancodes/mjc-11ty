@@ -25,4 +25,8 @@
 
   --color-accent: var(--color-accent-3);
   --color-main: var(--color-main-2);
+
+  --color-not-started: var(--color-accent-4);
+  --color-in-progress: var(--color-accent-1);
+  --color-complete: #bada55;
 }

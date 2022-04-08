@@ -1,0 +1,16 @@
+#tm-progress span:not(.sm-title) {
+  display: block;
+}
+
+#tm-progress .complete .level,
+#tm-progress li.complete {
+  color: var(--color-complete);
+}
+
+#tm-progress .in-progress .level {
+  color: var(--color-in-progress);
+}
+
+#tm-progress .not-started .level {
+  /* color: var(--color-not-started); */
+}

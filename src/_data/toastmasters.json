@@ -1,0 +1,112 @@
+{
+  "currentPathway": {
+    "title": "Innovative Planning",
+    "url": "https://www.toastmasters.org/pathways-overview/pathways-innovative-planning-path"
+  },
+  "pathways": [
+    {
+      "name": "Innovative Planning",
+      "status": "in-progress",
+      "levels": [
+        {
+          "level": "1",
+          "status": "in-progress",
+          "projects": [
+            {
+              "project": "Ice Breaker",
+              "title": "",
+              "dateCompleted": ""
+            },
+            {
+              "project": "Evaluation and Feedback",
+              "title": "",
+              "dateCompleted": ""
+            },
+            {
+              "project": "Researching and Presenting",
+              "title": "",
+              "dateCompleted": ""
+            }
+          ]
+        },
+        {
+          "level": "2",
+          "status": "not started",
+          "projects": [
+            {
+              "project": "Understanding Your Leadership Style",
+              "title": "",
+              "dateCompleted": ""
+            },
+            {
+              "project": "Connect with Your Audience",
+              "title": "",
+              "dateCompleted": ""
+            },
+            {
+              "project": "Introduction to Toastmasters Mentoring",
+              "title": "",
+              "dateCompleted": ""
+            }
+          ]
+        },
+        {
+          "level": "3",
+          "status": "not started",
+          "projects": [
+            {
+              "project": "Present a Proposal",
+              "title": "",
+              "dateCompleted": ""
+            },
+            {
+              "project": "Elective Project 1",
+              "title": "",
+              "dateCompleted": ""
+            },
+            {
+              "project": "Elective Project 2",
+              "title": "",
+              "dateCompleted": ""
+            }
+          ]
+        },
+        {
+          "level": "4",
+          "status": "not started",
+          "projects": [
+            {
+              "project": "Manage Projects Successfully",
+              "title": "",
+              "dateCompleted": ""
+            },
+            {
+              "project": "Elective Project 1",
+              "title": "",
+              "dateCompleted": ""
+            }
+          ]
+        },
+        {
+          "level": "5",
+          "status": "not started",
+          "projects": [
+            {
+              "project": "High Performance Leadership",
+              "title": "",
+              "dateCompleted": ""
+            },
+            {
+              "project": "Elective Project 1",
+              "title": "",
+              "dateCompleted": ""
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "awards": {
+    "bestTT": ["04/07/2022"]
+  }
+}

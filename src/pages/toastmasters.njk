@@ -1,0 +1,76 @@
+---
+title: Toastmasters
+permalink: /speaking/toastmasters/
+---
+
+<article id="tm-intro">
+  <p>
+    I am not the kind of person who is naturally comfortable speaking in front of any number of people. In fact, I have spent the majority of my life actively avoiding it. In school, I'd frequently take 0's on assignments/presentations becasue I refused to speak in front of the class.
+  </p>
+
+  <p>
+    Shortly after entering tech, I accidentally became a volunteer for Women Who Code Portland. As part of my volunteer work, I had to introduce speakers at our events and give a introduction to Women Who Code and our chapter. I was also expected to greet everyone as they came in and generally facilitate conversation. Definitely not in my comfort zone.
+  </p>
+
+  <p>
+    I figured if I was going to have to regularly speak in front of people and with strangers, I might as well learn how to do it right. I really don't like being bad at things that I have committed to doing.
+  </p>
+
+  <p>
+    With that in mind, I joined a Toastmasters club in February of 2018, and stayed a member through the end of the year. I had to leave the club when I moved and could no longer reasonably make meetings.
+  </p>
+
+  <p>
+    Jump forward a couple of COVID filled years of isolation, I  rejoined Toastmasters (April 2022) to improve speaking and presenting especially in online settings. 
+  </p>
+</article>
+
+<article id="tm-progress">
+  <h2>Progress</h2>
+  <p>
+    I am currently working on the <a href={{toastmasters.currentPathway.url}} target="_blank" rel="noopener noreferrer"> {{toastmasters.currentPathway.title}}  track in Pathways</a>.
+  </p>
+
+  {% for item in toastmasters.pathways[0].levels %}
+    <details class="{% if item.status === 'in-progress' %}in-progress {% elif item.status === 'not started' %}not-started {% else %}complete{% endif %}">
+      <summary>
+        <span class="sm-title level">Level {{item.level}}:</span>
+      </summary>
+        <ol>
+          {% for project in item.projects %}
+              <li class="{% if project.dateCompleted  %}complete {% endif %}">
+                <span>{{project.project}}</span> 
+                {% if project.title %} 
+                  <span>{{project.title}}</span>
+                  <span>Completed: {{project.dateCompleted}}</span>
+                {% endif %}
+              </li>
+          {% endfor %}
+        </ol>
+    </details>
+  {% endfor %}
+
+  <script>
+      let currentLevel = document.querySelector(".in-progress")
+      console.log(currentLevel)
+      currentLevel.setAttribute("open", "")
+
+  </script>
+</article>
+
+
+<article id="tm-awards">
+  <h2>Awards</h2>
+  <p>
+    At the end of each meeting, all attendee's vote on the best speaker, evaluator, and table topics answer of the evening. There are also several speech competitions at club/district/area/beyond levels each year.
+  </p>
+
+  <p class="sm-title">Best Table Topics </p>
+  <ul>
+    {% for win in toastmasters.awards.bestTT %}
+      <li>{{win}}</li>
+    {% endfor %}
+  </ul>
+</article>
+
+

@@ -4,15 +4,21 @@
     "display": "Home"
   },
   {
-    "url": "/experience",
+    "url": "/experience/",
     "display": "Experience"
   },
   {
-    "url": "/speaking",
-    "display": "Speaking"
+    "url": "/speaking/",
+    "display": "Speaking",
+    "subpages": [
+      {
+        "url": "/speaking/toastmasters/",
+        "display": "Toastmasters"
+      }
+    ]
   },
   {
-    "url": "/projects",
+    "url": "/projects/",
     "display": "Projects & Experiments"
   }
 ]
