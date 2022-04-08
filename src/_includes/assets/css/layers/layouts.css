@@ -1,4 +1,5 @@
 @import url("layouts/header.css") layer(layouts.header);
+@import url("layouts/footer.css") layer(layouts.footer);
 @import url("layouts/base.css") layer(layouts.base);
 @import url("layouts/talk-page.css") layer(layouts.talkpage);
 @import url("layouts/experiment-page.css") layer(layouts.experimentPage);

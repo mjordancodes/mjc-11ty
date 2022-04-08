@@ -4,6 +4,10 @@
   padding: 0;
 }
 
+.no-bullets-list .no-bullets-list {
+  margin-left: 15px;
+}
+
 /* Things that visually might be titles, but not important enough to give an <h#> to */
 .sm-title {
   font-size: var(--font-sm-title);

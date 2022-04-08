@@ -1,0 +1,25 @@
+<footer id="page-footer">
+
+  <div id="copyright">
+    &copy; 2022 mJordan Levine
+  </div>
+
+  <div id="all-pages">
+    <ul class="no-bullets-list">
+      {% for item in sitemap %}
+        <li>
+          <a href={{ item.url }}>{{ item.display }}</a>
+          {% if item.subpages %}
+            <ul class="no-bullets-list">
+              {% for subitem in item.subpages %}
+                <li>
+                  <a href={{ subitem.url }}>{{ subitem.display }}</a>
+                </li>
+              {% endfor %}
+            </ul>
+          {% endif %}
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+</footer> 

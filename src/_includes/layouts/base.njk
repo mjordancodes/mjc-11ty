@@ -12,7 +12,7 @@
 <body>
   <div id="container">
     
-    {% include "components/header.njk" %}
+    {% include "components/layouts/header.njk" %}
 
     <main>
       <h1>{{ title }}</h1>
@@ -24,6 +24,9 @@
         {% include "components/about/about-aside.njk" %}
       </div>
     </aside>
+
+    {% include "components/layouts/footer.njk" %}
+
   </div>
 </body>
 </html>

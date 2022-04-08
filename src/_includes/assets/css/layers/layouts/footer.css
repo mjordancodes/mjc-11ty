@@ -1,0 +1,13 @@
+#page-footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas: "left center right";
+}
+
+#page-footer #all-pages {
+  grid-area: right;
+}
+
+#page-footer #copyright {
+  grid-area: center;
+}
