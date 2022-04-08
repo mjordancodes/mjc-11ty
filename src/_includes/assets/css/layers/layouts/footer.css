@@ -1,7 +1,14 @@
 #page-footer {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-areas: "left center right";
+  grid-template-areas:
+    "top top top"
+    "left left right";
+}
+
+#page-footer > div {
+  display: flex;
+  justify-content: center;
 }
 
 #page-footer #all-pages {
@@ -9,5 +16,12 @@
 }
 
 #page-footer #copyright {
-  grid-area: center;
+  text-align: center;
+  grid-area: top;
+  padding: 20px 0;
+}
+
+#page-footer #fun svg {
+  grid-area: left;
+  max-width: 150px;
 }

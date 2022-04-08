@@ -1,0 +1,30 @@
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.1/TweenMax.min.js"></script>
+
+
+{% include "assets/images/svgs/beefly.svg" %}
+
+
+<script>
+const bee = document.getElementById("bee");
+const greenPlant = document.getElementById("green-plant");
+let beegone = false;
+
+var tlPlant = new TimelineMax({ repeat: -1 });
+tlPlant.to(greenPlant, 0.25, { x: 0.5 }).to(greenPlant, 0.25, { x: 0 });
+
+greenPlant.addEventListener("mouseover", function () {
+  if (!beegone) {
+    tlPlant.pause();
+    beeFly();
+    beegone = true;
+  }
+});
+
+function beeFly() {
+  var tl = new TimelineMax({});
+  tl.to(bee, 7, { x: 125, y: -25 })
+    .to(bee, 2, { x: 125, y: -25 })
+    .to(bee, 7, { x: 175, y: -150 });
+}
+
+</script>
