@@ -14,7 +14,7 @@ body {
     grid-template-areas:
       "header header"
       "aside main"
-      "footer footer";
+      ". footer";
     gap: 1em;
     max-width: 1000px;
     margin: 0 auto;
