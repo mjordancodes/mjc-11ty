@@ -1,13 +1,24 @@
+#page-header {
+  margin-bottom: 25px;
+}
+
 #page-header ul {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  flex-wrap: wrap;
   align-items: center;
+  justify-content: center;
   font-weight: bold;
-  font-size: 1.2rem;
 }
 
 #page-header ul li {
   padding: 10px;
+}
+
+#page-header ul li:first-of-type {
+  width: 100%;
+  text-align: center;
+  padding: 0;
 }
 
 #page-header a:hover {
@@ -16,7 +27,11 @@
 
 @media (min-width: 800px) {
   #page-header ul {
-    flex-direction: row;
+    flex-wrap: no-wrap;
     justify-content: space-evenly;
+    font-size: 1.2rem;
+  }
+  #page-header ul li:first-of-type {
+    width: initial;
   }
 }
