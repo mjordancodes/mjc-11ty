@@ -1,9 +1,9 @@
-@layer defaults, components, layouts, pages, utilities;
+/* @layer defaults, components, layouts, pages, utilities; */
 
-@import url("variables.css") layer(defaults.variables);
+@import url("variables.css");
 
-@import url("layers/defaults.css") layer(defaults);
-@import url("layers/components.css") layer(components);
-@import url("layers/layouts.css") layer(layouts);
-@import url("layers/pages.css") layer(pages);
-@import url("layers/utilities.css") layer(utilities);
+@import url("layers/defaults.css");
+@import url("layers/components.css");
+@import url("layers/layouts.css");
+@import url("layers/pages.css");
+@import url("layers/utilities.css");
