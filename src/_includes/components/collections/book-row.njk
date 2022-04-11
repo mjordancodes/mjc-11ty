@@ -9,7 +9,9 @@
 
   <td class="closed author">
     <span>
-      {{ book.author[0].last }}, {{ book.author[0].first }}
+      {% for author in book.author %}
+        {{ author.last }}, {{ author.first }}
+      {% endfor %}
     </span>
   </td>
 
@@ -28,7 +30,7 @@
   <td class="closed genre">
     <span>
       {% for genre in book.genre %}
-        {{ genre }}, 
+        {{ genre }}{% if loop.revindex != 1 %},{% endif %} 
       {% endfor %}
     </span>
   </td>

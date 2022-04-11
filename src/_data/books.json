@@ -1,5 +1,62 @@
 [
   {
+    "title": "The Eye of the World",
+    "author": [
+      {
+        "first": "Robert",
+        "last": "Jordan"
+      }
+    ],
+    "series": "The Wheel of Time",
+    "number": "1",
+    "genre": ["Fantasy", "Fiction", "Action & Adventure"],
+    "pages": "753",
+    "dates": [
+      {
+        "start": "",
+        "end": "2021"
+      }
+    ]
+  },
+  {
+    "title": "The Great Hunt",
+    "author": [
+      {
+        "first": "Robert",
+        "last": "Jordan"
+      }
+    ],
+    "series": "The Wheel of Time",
+    "number": "2",
+    "genre": ["Fantasy", "Fiction", "Action & Adventure"],
+    "pages": "658",
+    "dates": [
+      {
+        "start": "",
+        "end": "2021"
+      }
+    ]
+  },
+  {
+    "title": "The Dragon Reborn",
+    "author": [
+      {
+        "first": "Robert",
+        "last": "Jordan"
+      }
+    ],
+    "series": "The Wheel of Time",
+    "number": "3",
+    "genre": ["Fantasy", "Fiction", "Action & Adventure"],
+    "pages": "632",
+    "dates": [
+      {
+        "start": "",
+        "end": "2022"
+      }
+    ]
+  },
+  {
     "title": "The Shadow Rising",
     "author": [
       {
@@ -33,6 +90,189 @@
     "dates": [
       {
         "start": "04/06/2022",
+        "end": ""
+      }
+    ]
+  },
+  {
+    "title": "The Lord of Chaos",
+    "author": [
+      {
+        "first": "Robert",
+        "last": "Jordan"
+      }
+    ],
+    "series": "The Wheel of Time",
+    "number": "6",
+    "genre": ["Fantasy", "Fiction", "Action & Adventure"],
+    "pages": "732",
+    "dates": [
+      {
+        "start": "",
+        "end": ""
+      }
+    ]
+  },
+  {
+    "title": "A Crown of Swords",
+    "author": [
+      {
+        "first": "Robert",
+        "last": "Jordan"
+      }
+    ],
+    "series": "The Wheel of Time",
+    "number": "7",
+    "genre": ["Fantasy", "Fiction", "Action & Adventure"],
+    "pages": "902",
+    "dates": [
+      {
+        "start": "",
+        "end": ""
+      }
+    ]
+  },
+  {
+    "title": "The Path of Daggers",
+    "author": [
+      {
+        "first": "Robert",
+        "last": "Jordan"
+      }
+    ],
+    "series": "The Wheel of Time",
+    "number": "8",
+    "genre": ["Fantasy", "Fiction", "Action & Adventure"],
+    "pages": "669",
+    "dates": [
+      {
+        "start": "",
+        "end": ""
+      }
+    ]
+  },
+  {
+    "title": "Winter's Heart",
+    "author": [
+      {
+        "first": "Robert",
+        "last": "Jordan"
+      }
+    ],
+    "series": "The Wheel of Time",
+    "number": "9",
+    "genre": ["Fantasy", "Fiction", "Action & Adventure"],
+    "pages": "705",
+    "dates": [
+      {
+        "start": "",
+        "end": ""
+      }
+    ]
+  },
+  {
+    "title": "Crossroads of Twilight",
+    "author": [
+      {
+        "first": "Robert",
+        "last": "Jordan"
+      }
+    ],
+    "series": "The Wheel of Time",
+    "number": "10",
+    "genre": ["Fantasy", "Fiction", "Action & Adventure"],
+    "pages": "627",
+    "dates": [
+      {
+        "start": "",
+        "end": ""
+      }
+    ]
+  },
+  {
+    "title": "Knife of Dreams",
+    "author": [
+      {
+        "first": "Robert",
+        "last": "Jordan"
+      }
+    ],
+    "series": "The Wheel of Time",
+    "number": "11",
+    "genre": ["Fantasy", "Fiction", "Action & Adventure"],
+    "pages": "886",
+    "dates": [
+      {
+        "start": "",
+        "end": ""
+      }
+    ]
+  },
+  {
+    "title": "The Gathering Storm",
+    "author": [
+      {
+        "first": "Robert",
+        "last": "Jordan"
+      },
+      {
+        "first": "Brandon",
+        "last": "Sanderson"
+      }
+    ],
+    "series": "The Wheel of Time",
+    "number": "12",
+    "genre": ["Fantasy", "Fiction", "Action & Adventure"],
+    "pages": "861",
+    "dates": [
+      {
+        "start": "",
+        "end": ""
+      }
+    ]
+  },
+  {
+    "title": "Towers of Midnight",
+    "author": [
+      {
+        "first": "Robert",
+        "last": "Jordan"
+      },
+      {
+        "first": "Brandon",
+        "last": "Sanderson"
+      }
+    ],
+    "series": "The Wheel of Time",
+    "number": "13",
+    "genre": ["Fantasy", "Fiction", "Action & Adventure"],
+    "pages": "865",
+    "dates": [
+      {
+        "start": "",
+        "end": ""
+      }
+    ]
+  },
+  {
+    "title": "A Memory of Light",
+    "author": [
+      {
+        "first": "Robert",
+        "last": "Jordan"
+      },
+      {
+        "first": "Brandon",
+        "last": "Sanderson"
+      }
+    ],
+    "series": "The Wheel of Time",
+    "number": "14",
+    "genre": ["Fantasy", "Fiction", "Action & Adventure"],
+    "pages": "1025",
+    "dates": [
+      {
+        "start": "",
         "end": ""
       }
     ]
