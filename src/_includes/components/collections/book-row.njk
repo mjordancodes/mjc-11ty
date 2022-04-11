@@ -1,44 +1,56 @@
 {% macro row(book) %}
 <tr class="book-row">
 
-  <td class="opened title">
-    <span>
-    {{ book.title }}
-    </span>
+  <td class="title">
+    <button onClick={showDetailsBtn(this)} class="btn-no-design">
+      {{ book.title }} <span>&#9660;</span>
+    </button>
+
+    <table class="book-details-table">
+
+      {% if book.series %} 
+        <tr> 
+          <td class="table-header">Series:</td>
+          <td>{{ book.series }} | {{ book.number }}</td>
+        </tr>
+      {% endif %}
+
+      <tr>
+        <td class="table-header">Pages:</td>
+        <td>{{ book.pages }}</td>
+      </tr>
+
+      {% if book.dates[0].end %} 
+        <tr>
+          <td class="table-header">Read:</td>
+          <td>{{ book.dates[0].end }}</td>
+        </tr>
+      {% endif %}
+
+      <tr>
+        <td class="table-header">Genre(s)</td>
+        <td>
+          {% for genre in book.genre %}
+            {{ genre }}{% if loop.revindex != 1 %},{% endif %} 
+          {% endfor %}
+        </td>
+      </tr>
+
+    </table>
   </td>
 
-  <td class="closed author">
+  <td class="author">
     <span>
       {% for author in book.author %}
-        {{ author.last }}, {{ author.first }}
+        {{ author.first }} {{ author.last }}{% if loop.revindex != 1 %}<br /> & {% endif %} 
       {% endfor %}
     </span>
   </td>
 
-  <td class="closed series">
-    <span>
-      {{ book.series }} | {{ book.number }}
-    </span>
-  </td>
 
-  <td class="closed pages">
-    <span>
-      {{ book.pages }}
-    </span>
-  </td>
+  
 
-  <td class="closed genre">
-    <span>
-      {% for genre in book.genre %}
-        {{ genre }}{% if loop.revindex != 1 %},{% endif %} 
-      {% endfor %}
-    </span>
-  </td>
-
-  <td class="closed read">
-    <span>
-      {{ book.dates[0].end }}
-    </span>
-  </td>
 </tr>
+
+
 {% endmacro %}

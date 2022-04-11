@@ -7,20 +7,28 @@
   font-weight: bold;
 }
 
-/* #books-table thead td.closed {
-  transform: rotate(-90deg);
-  width: 1em;
-  height: 150px;
-}
-
-#books-table tr.book-row td.closed span {
-  display: none;
-} */
-
 #books-table td {
   border: 1px solid var(--color-black);
+  padding: 0 3px;
 }
 
-#books-table i {
-  /* display: none; */
+#books-table tr.clicked-row {
+  /* background: var(--color-accent-0); */
+}
+
+#books-table .book-details-table,
+#books-table tr.clicked-row td.title button span {
+  display: none;
+}
+
+#books-table tr.clicked-row .book-details-table {
+  display: initial;
+}
+
+#books-table .book-details-table {
+  border-collapse: collapse;
+}
+
+#books-table .book-details-table td {
+  border: none;
 }

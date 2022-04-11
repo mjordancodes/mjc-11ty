@@ -16,12 +16,8 @@ permalink: /collections/books/
 <table id="books-table">
   <thead>
     <tr>
-      <td class="opened title">Title</td>
-      <td class="closed author">Author</td>
-      <td class="closed series">Series</td>
-      <td class="closed pages">Pages</td>
-      <td class="closed genre">Genre</td>
-      <td class="closed read">Read</td>
+      <td class="title">Book</td>
+      <td class="author">Author</td>
     </tr>
   </thead>
 
@@ -32,6 +28,29 @@ permalink: /collections/books/
 </table>
 
 <script>
-  
+  const bookTable = document.getElementById('books-table');
+  const rows = bookTable.querySelectorAll('tr')
+
+  {# for (let i = 1; i < rows.length; i++) {
+    rows[i].addEventListener('click', (e) => {
+      for (let i = 1; i < rows.length; i++) {
+        rows[i].classList.remove('clicked-row')
+      }
+      e.target.parentNode.classList.add('clicked-row')
+      console.log('clicked')
+    })
+  } #}
+
+  function showDetailsBtn(btnThis) {
+    for (let i = 1; i < rows.length; i++) {
+      rows[i].classList.remove('clicked-row')
+    }
+    let grandparent = btnThis.parentNode.parentNode
+    grandparent.classList.add('clicked-row')
+    console.log(grandparent)
+    
+
+  }
+
 
 </script>

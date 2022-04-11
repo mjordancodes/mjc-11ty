@@ -12,3 +12,10 @@ a.btn {
 a.btn:hover {
   background: var(--color-main-3);
 }
+
+.btn-no-design {
+  background: none;
+  border: none;
+  display: block;
+  margin: 3px auto;
+}
