@@ -12,10 +12,6 @@
   padding: 0 3px;
 }
 
-#books-table tr.clicked-row {
-  /* background: var(--color-accent-0); */
-}
-
 #books-table .book-details-table,
 #books-table tr.clicked-row td.title button span {
   display: none;
