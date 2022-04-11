@@ -276,5 +276,208 @@
         "end": ""
       }
     ]
+  },
+  {
+    "title": "The Lost World",
+    "author": [
+      {
+        "first": "Sir Aurthor Conan",
+        "last": "Doyle"
+      }
+    ],
+    "genre": ["Science Fiction", "Lost World", "Historical Fiction"],
+    "pages": "123",
+    "dates": [
+      {
+        "start": "",
+        "end": ""
+      }
+    ]
+  },
+  {
+    "title": "The Name of the Wind",
+    "author": [
+      {
+        "first": "Patrick",
+        "last": "Rothfuss"
+      }
+    ],
+    "series": "The Kingkiller Chronicle",
+    "number": "1",
+    "genre": ["Heroic Fantasy", "Fantasy"],
+    "pages": "662",
+    "dates": [
+      {
+        "start": "",
+        "end": ""
+      }
+    ]
+  },
+  {
+    "title": "The Wise Man's Fear",
+    "author": [
+      {
+        "first": "Patrick",
+        "last": "Rothfuss"
+      }
+    ],
+    "series": "The Kingkiller Chronicle",
+    "number": "2",
+    "genre": ["Heroic Fantasy", "Fantasy"],
+    "pages": "994",
+    "dates": [
+      {
+        "start": "",
+        "end": ""
+      }
+    ]
+  },
+  {
+    "title": "Harold and Maude",
+    "author": [
+      {
+        "first": "Collin",
+        "last": "Higgins"
+      }
+    ],
+    "genre": ["Fiction", "Humor"],
+    "pages": "146",
+    "dates": [
+      {
+        "start": "",
+        "end": ""
+      }
+    ]
+  },
+  {
+    "title": "Hal Ashby and the Making of Harold and Maude",
+    "author": [
+      {
+        "first": "James A.",
+        "last": "Davidson"
+      }
+    ],
+    "genre": ["Non-Fiction", "Pop Culture", "Film"],
+    "pages": "225",
+    "dates": [
+      {
+        "start": "",
+        "end": ""
+      }
+    ]
+  },
+  {
+    "title": "Cryptozoology A to Z: The Encyclopedia Of Loch Monsters Sasquatch Chupacabras And Other Authentic Mysteries of Nature",
+    "author": [
+      {
+        "first": "Loren",
+        "last": "Coleman"
+      },
+      {
+        "first": "Jerome",
+        "last": "Clark"
+      }
+    ],
+    "genre": ["Nature", "Unexplained Phenomena", "Encyclopedia"],
+    "pages": "227",
+    "dates": [
+      {
+        "start": "",
+        "end": ""
+      }
+    ]
+  },
+  {
+    "title": "The Named",
+    "author": [
+      {
+        "first": "Marianne",
+        "last": "Curley"
+      }
+    ],
+    "series": "The Guardians of Time",
+    "number": "1",
+    "genre": ["Young Adult", "Fantasy", "Time Travel"],
+    "pages": "336",
+    "dates": [
+      {
+        "start": "",
+        "end": ""
+      }
+    ]
+  },
+  {
+    "title": "The Dark",
+    "author": [
+      {
+        "first": "Marianne",
+        "last": "Curley"
+      }
+    ],
+    "series": "The Guardians of Time",
+    "number": "2",
+    "genre": ["Young Adult", "Fantasy", "Time Travel"],
+    "pages": "352",
+    "dates": [
+      {
+        "start": "",
+        "end": ""
+      }
+    ]
+  },
+  {
+    "title": "The Key",
+    "author": [
+      {
+        "first": "Marianne",
+        "last": "Curley"
+      }
+    ],
+    "series": "The Guardians of Time",
+    "number": "3",
+    "genre": ["Young Adult", "Fantasy", "Time Travel"],
+    "pages": "416",
+    "dates": [
+      {
+        "start": "",
+        "end": ""
+      }
+    ]
+  },
+  {
+    "title": "The Shadow",
+    "author": [
+      {
+        "first": "Marianne",
+        "last": "Curley"
+      }
+    ],
+    "series": "The Guardians of Time",
+    "number": "4",
+    "genre": ["Young Adult", "Fantasy", "Time Travel"],
+    "pages": "467",
+    "dates": [
+      {
+        "start": "",
+        "end": ""
+      }
+    ]
+  },
+  {
+    "title": "The Time Traveler's Wife",
+    "author": [
+      {
+        "first": "Audrey",
+        "last": "Niffenegger"
+      }
+    ],
+    "genre": ["Fiction", "Romance", "Fantasy", "Time Travel"],
+    "pages": "537",
+    "dates": [
+      {
+        "start": "",
+        "end": ""
+      }
+    ]
   }
 ]
