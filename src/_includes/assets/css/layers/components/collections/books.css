@@ -13,7 +13,7 @@
 }
 
 #books-table .book-details-table,
-#books-table tr.clicked-row td.title button span {
+#books-table tr.clicked-row td.title button span.icon {
   display: none;
 }
 

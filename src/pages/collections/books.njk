@@ -10,7 +10,14 @@ permalink: /collections/books/
 </article>
 
 <h2>All Books</h2>
-<p>Building a table list of all the books I have / am reading / have read.</p>
+<p>Building a table list of all the books I have / am reading / have read. Click on any title for more information on the book.</p>
+
+<div id="book-list-search">
+  <p>Search my book list</p>
+  <label for="title-search">By Title</label>
+  <input type="text" id="title-search" name="title-search" onkeyup={titleSearchChange()}>
+</div>  
+<br />
 
 {% import "components/collections/book-row.njk" as bookRow %}
 <table id="books-table">
@@ -28,6 +35,8 @@ permalink: /collections/books/
 </table>
 
 <script>
+
+  // Showing/Hiding book details
   const bookTable = document.getElementById('books-table');
   const rows = bookTable.querySelectorAll('tr')
 
@@ -39,5 +48,31 @@ permalink: /collections/books/
     grandparent.classList.add('clicked-row')
   }
 
+  // Search Book List by title
+  const titleSearchBox = document.getElementById('title-search')
+  let searchValue = titleSearchBox.value
+
+  let allTitlesNodes = document.querySelectorAll('.book-title')
+  let allTitles = []
+  for (let i = 0; i < allTitlesNodes.length; i++) {
+    allTitles.push(allTitlesNodes[i].textContent)
+  }
+
+  let previousSearchStringLength = 0;
+  function titleSearchChange() {
+    searchValue = titleSearchBox.value.toLowerCase()
+    if (searchValue.length < previousSearchStringLength) {
+      for (let j = 0; j < allTitlesNodes.length; j++) {
+        allTitlesNodes[j].parentNode.parentNode.parentNode.classList.remove('hide')
+      }
+    }
+    previousSearchStringLength++
+
+    for (let i = 0; i < allTitles.length; i++) {
+      if (!allTitles[i].toLowerCase().includes(searchValue)) {
+        allTitlesNodes[i].parentNode.parentNode.parentNode.classList.add('hide')
+      }
+    }
+  }
 
 </script>
