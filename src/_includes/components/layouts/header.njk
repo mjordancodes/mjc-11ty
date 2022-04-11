@@ -8,9 +8,11 @@
     </li>
     {% for item in sitemap %}
       {% if item.url != "/" %}
-        <li>
-          <a href={{ item.url }}>{{ item.display }}</a>
-        </li>
+        {% if item.url != "/collections/" %}
+          <li>
+            <a href={{ item.url }}>{{ item.display }}</a>
+          </li>
+        {% endif %}
       {% endif %}
     {% endfor %}
   </ul>

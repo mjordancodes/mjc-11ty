@@ -1,0 +1,125 @@
+{
+  "Switch": [
+    {
+      "title": "Animal Crossing: New Horizons",
+      "img": "/_includes/assets/images/game-cases/animal-crossing-new-horizons.png"
+    },
+    {
+      "title": "Fire Emblem Warriors",
+      "img": "/_includes/assets/images/game-cases/fire-emblem-warriors.jpg"
+    },
+    {
+      "title": "Fire Emblem: Three Houses",
+      "img": "/_includes/assets/images/game-cases/fire-emblem-three-houses.jpg"
+    },
+    {
+      "title": "Fire Emblem: Shadow Dragon and the Blade of Light",
+      "img": "/_includes/assets/images/game-cases/fire-emblem-shadow-dragon.jpg"
+    },
+    {
+      "title": "Hyrule Warriors: Age of Calamity",
+      "img": "/_includes/assets/images/game-cases/hyrule-warriors-age-of-calamity.jpg"
+    },
+    {
+      "title": "Pokemon Let's Go Pikachu",
+      "img": "/_includes/assets/images/game-cases/pokemon-lets-go-pikachu.jpg"
+    },
+    {
+      "title": "Pokemon Let's Go Eevee",
+      "img": "/_includes/assets/images/game-cases/pokemon-lets-go-eevee.jpg"
+    },
+    { "title": "Pokemon Sword", "img": "/_includes/assets/images/game-cases/" },
+    {
+      "title": "New Pokemon Snap",
+      "img": "/_includes/assets/images/game-cases/"
+    },
+    {
+      "title": "Pokemon Shinning Pearl",
+      "img": "/_includes/assets/images/game-cases/"
+    },
+    {
+      "title": "Pokemon Brilliant Diamond",
+      "img": "/_includes/assets/images/game-cases/"
+    },
+    {
+      "title": "Pokemon Arceus",
+      "img": "/_includes/assets/images/game-cases/"
+    },
+    {
+      "title": "Stardew Valley",
+      "img": "/_includes/assets/images/game-cases/"
+    },
+    {
+      "title": "Harvest Moon: One World",
+      "img": "/_includes/assets/images/game-cases/"
+    },
+    {
+      "title": "Rune Factory 5",
+      "img": "/_includes/assets/images/game-cases/"
+    },
+    {
+      "title": "Story of Seasons: Pioneers of Olive Town",
+      "img": "/_includes/assets/images/game-cases/"
+    },
+    {
+      "title": "Kingdom Hearts 1.5 + 2.5",
+      "img": "/_includes/assets/images/game-cases/"
+    },
+    {
+      "title": "Kingdom Hearts 2.8",
+      "img": "/_includes/assets/images/game-cases/"
+    },
+    {
+      "title": "Kingdom Hearts III",
+      "img": "/_includes/assets/images/game-cases/"
+    },
+    {
+      "title": "Bravely Default II",
+      "img": "/_includes/assets/images/game-cases/"
+    },
+    {
+      "title": "World of Final Fantasy: Maxima",
+      "img": "/_includes/assets/images/game-cases/"
+    },
+    {
+      "title": "Final Fantasy: Crystal Chronicles Remastered",
+      "img": "/_includes/assets/images/game-cases/"
+    },
+    {
+      "title": "Super Smash Bros Ultimate",
+      "img": "/_includes/assets/images/game-cases/"
+    },
+    {
+      "title": "Super Mario Bros. U Deluxe",
+      "img": "/_includes/assets/images/game-cases/"
+    },
+    {
+      "title": "Mario Kart Deluxe 8",
+      "img": "/_includes/assets/images/game-cases/"
+    },
+    {
+      "title": "Hot Wheels Unleashed",
+      "img": "/_includes/assets/images/game-cases/"
+    },
+    {
+      "title": "Super Monkey Ball: Banana Mania",
+      "img": "/_includes/assets/images/game-cases/"
+    },
+    {
+      "title": "Mario + Rabbids: Kingdom Battle",
+      "img": "/_includes/assets/images/game-cases/"
+    },
+    {
+      "title": "Lego Jurassic World",
+      "img": "/_includes/assets/images/game-cases/"
+    },
+    {
+      "title": "Lego Harry Potter Collection",
+      "img": "/_includes/assets/images/game-cases/"
+    },
+    {
+      "title": "Evoland Legacy Edition",
+      "img": "/_includes/assets/images/game-cases/"
+    }
+  ]
+}

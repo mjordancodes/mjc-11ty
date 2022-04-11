@@ -1,0 +1,29 @@
+{% macro details(open, reading) %} 
+  <details class="{% if open === 'true' %}opened{% endif %}">
+    <summary>
+      <span class="now-title">Reading:</span> {{ reading.title }}
+    </summary>
+    <div>
+      <p><span class="now-title">Author:</span> {{ reading.author }}</p>
+      {% if reading.series %}
+        <p>
+          <span class="now-title">Series:</span>
+          {{ reading.series }} | {{ reading.number }}
+        </p>
+      {% endif %}
+      <p>
+        <span class="now-title">Genre:</span> 
+        {% for item in reading.genre %}
+          {{ item }}
+        {% endfor %}
+      </p>
+      <p><span class="now-title">Pages:</span> {{ reading.pages }}</p>
+    </div>
+  </details>
+
+  <script>
+    let openedElement = document.querySelector(".opened")
+    openedElement.setAttribute("open", "")
+
+  </script>
+{% endmacro %}

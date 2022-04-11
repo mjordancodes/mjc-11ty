@@ -1,7 +1,12 @@
 [
   {
     "title": "The Shadow Rising",
-    "author": "Robert Jordan",
+    "author": [
+      {
+        "first": "Robert",
+        "last": "Jordan"
+      }
+    ],
     "series": "The Wheel of Time",
     "number": "4",
     "genre": ["Fantasy", "Fiction", "Action & Adventure"],
@@ -15,7 +20,12 @@
   },
   {
     "title": "The Fires of Heaven",
-    "author": "Robert Jordan",
+    "author": [
+      {
+        "first": "Robert",
+        "last": "Jordan"
+      }
+    ],
     "series": "The Wheel of Time",
     "number": "5",
     "genre": ["Fantasy", "Fiction", "Action & Adventure"],

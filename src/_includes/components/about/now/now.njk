@@ -1,30 +1,12 @@
-<div id="now">
+<div id="now" class="now">
   <h2>Now</h2>
   <p>Things I am interested in currently</p>
   <p>Last Updated: {{ me.now.updated }}</p>
 
   <br />
-  <details>
-    <summary>
-      <span class="now-title">Reading:</span> {{ me.now.reading.title }}
-    </summary>
-    <div>
-      <p><span class="now-title">Author:</span> {{ me.now.reading.author }}</p>
-      {% if me.now.reading.series %}
-        <p>
-          <span class="now-title">Series:</span>
-          {{ me.now.reading.series }} | {{ me.now.reading.number }}
-        </p>
-      {% endif %}
-      <p>
-        <span class="now-title">Genre:</span> 
-        {% for item in me.now.reading.genre %}
-          {{ item }}
-        {% endfor %}
-      </p>
-      <p><span class="now-title">Pages:</span> {{ me.now.reading.pages }}</p>
-    </div>
-  </details>
+  
+  {% import "components/about/now/reading.njk" as readingNow %}
+  {{ readingNow.details("false", me.now.reading)}}
 
   <details>
     <summary>

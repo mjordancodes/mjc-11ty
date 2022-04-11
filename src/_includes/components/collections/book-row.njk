@@ -1,0 +1,42 @@
+{% macro row(book) %}
+<tr class="book-row">
+
+  <td class="opened title">
+    <span>
+    {{ book.title }}
+    </span>
+  </td>
+
+  <td class="closed author">
+    <span>
+      {{ book.author[0].last }}, {{ book.author[0].first }}
+    </span>
+  </td>
+
+  <td class="closed series">
+    <span>
+      {{ book.series }} | {{ book.number }}
+    </span>
+  </td>
+
+  <td class="closed pages">
+    <span>
+      {{ book.pages }}
+    </span>
+  </td>
+
+  <td class="closed genre">
+    <span>
+      {% for genre in book.genre %}
+        {{ genre }}, 
+      {% endfor %}
+    </span>
+  </td>
+
+  <td class="closed read">
+    <span>
+      {{ book.dates[0].end }}
+    </span>
+  </td>
+</tr>
+{% endmacro %}

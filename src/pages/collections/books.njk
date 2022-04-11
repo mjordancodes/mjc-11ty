@@ -1,0 +1,36 @@
+---
+title: Books
+permalink: /collections/books/
+---
+
+<article class="now">
+  <h2>Currently Reading:</h2>
+  {% import "components/about/now/reading.njk" as readingNow %}
+  {{ readingNow.details("true", me.now.reading)}}
+</article>
+
+<h2>All Books</h2>
+
+{% import "components/collections/book-row.njk" as bookRow %}
+<table id="books-table">
+  <thead>
+    <tr>
+      <td class="opened title">Title</td>
+      <td class="closed author">Author</td>
+      <td class="closed series">Series</td>
+      <td class="closed pages">Pages</td>
+      <td class="closed genre">Genre</td>
+      <td class="closed read">Read</td>
+    </tr>
+  </thead>
+
+  {% for book in books %} 
+    {{ bookRow.row(book) }}
+  {% endfor %} 
+
+</table>
+
+<script>
+  
+
+</script>

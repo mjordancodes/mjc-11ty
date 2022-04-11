@@ -20,5 +20,15 @@
   {
     "url": "/projects/",
     "display": "Projects & Experiments"
+  },
+  {
+    "url": "/collections/",
+    "display": "Collections",
+    "subpages": [
+      {
+        "url": "/collections/books/",
+        "display": "Books"
+      }
+    ]
   }
 ]

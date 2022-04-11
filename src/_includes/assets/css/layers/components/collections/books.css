@@ -1,0 +1,26 @@
+#books-table {
+  border-collapse: collapse;
+  width: 100%;
+}
+#books-table thead {
+  background-color: var(--color-main-0);
+  font-weight: bold;
+}
+
+/* #books-table thead td.closed {
+  transform: rotate(-90deg);
+  width: 1em;
+  height: 150px;
+}
+
+#books-table tr.book-row td.closed span {
+  display: none;
+} */
+
+#books-table td {
+  border: 1px solid var(--color-black);
+}
+
+#books-table i {
+  /* display: none; */
+}
