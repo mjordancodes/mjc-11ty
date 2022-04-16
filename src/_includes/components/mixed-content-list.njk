@@ -9,6 +9,8 @@
       {{ talkCard.card(item.data, excludeTagFromList) }}
     {% elif  item.data.tags.includes("experiment") %}
       {{ projectCard.card(item.data, excludeTagFromList) }}
+    {% elif  item.data.tags.includes("project") %}
+      {{ projectCard.card(item.data, excludeTagFromList) }}
     {% endif %}
   {% endfor %}
 

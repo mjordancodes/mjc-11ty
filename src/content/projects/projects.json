@@ -1,0 +1,8 @@
+{
+  "layout": "layouts/project-page.njk",
+  "tags": "project",
+  "permalink": "/code/{{page.fileSlug}}/",
+  "eleventyComputed": {
+    "pageSlug": "/code/{{ page.fileSlug }}"
+  }
+}

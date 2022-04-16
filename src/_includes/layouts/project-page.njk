@@ -1,0 +1,27 @@
+---
+layout: layouts/base.njk 
+---
+<article id="project-details">
+  <header>
+    {% import "components/tag-list.njk" as tagList %}
+    {{ tagList.tagList(tags, "project") }}
+
+    <p>Creation Date: {{ originalDate }}</p>
+
+    {% if urls.github %}
+      <a class="btn" href={{urls.github}}>GitHub</a>
+    {% endif %}
+
+    {% if urls.live %}
+      <a class="btn" href={{urls.live}}>Live</a>
+    {% endif %}
+  </header>
+
+  <img src={{ thumbnail }}
+
+  <p>
+    {{summary}}
+  </p>
+  {{ content | safe }}
+
+</article>
