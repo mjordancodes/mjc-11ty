@@ -23,6 +23,8 @@
 
   <script>
     const openedElement = document.querySelector(".opened")
-    openedElement.setAttribute("open", "")
+    if (openedElement) {
+      openedElement.setAttribute("open", "")
+    }
   </script>
 {% endmacro %}
