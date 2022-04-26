@@ -1,11 +1,14 @@
 ---
 title: Dig In On Grid
-summary: "This conference talk gives a brief history of styling on the web followed by an introduction to how (and when) to use some of the new layout tools such as flexbox and grid. While the talk focuses on the technicals of using CSS Grid, it also reviews flexbox so attendees understand when to use each of these awesome layout tools."
+summary: "Originally written for a conference back in 2018, I've been periodically updating and re-presenting this talk at community meetups. While this talk was initially focused on CSS Grid, I have expanded it over time to be more generally about all the tools we have for manipulating layout with CSS. Touches on flexbox, grid, subgrid, and multi-column layout tools."
 originalDate: 6/02/2018
 updatedDate: 04/24/2022
+featured: true,
 tags:
   - CSS
   - CSS Grid
+  - Sub-Grid
+  - Multi-Column
   - Flexbox
   - Layouts
 ---
