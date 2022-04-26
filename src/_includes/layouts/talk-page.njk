@@ -7,9 +7,9 @@ layout: layouts/base.njk
     {{ tagList.tagList(tags, "presentation") }}
 
     <p>Creation Date: {{ originalDate }}</p>
+    <p>Updated Date: {{ updatedDate }}</p>
   </header>
 
-  <p>
-    {{summary}}
-  </p>
+
+  {{content | safe}}
 </article>
