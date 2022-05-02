@@ -108,27 +108,26 @@
     "readable": "mJordan.codes"
   },
   "now": {
-    "updated": "April 6, 2022",
+    "updated": "May 2, 2022",
     "reading": {
-      "title": "The Fires of Heaven",
+      "title": "The Lord of Chaos",
       "author": "Robert Jordan",
       "series": "The Wheel of Time",
-      "number": "5",
+      "number": "6",
       "genre": ["Fantasy", "Fiction", "Action & Adventure"],
-      "pages": "926"
+      "pages": "732"
     },
     "playing": [
+      {
+        "title": "Cozy Grove",
+        "system": "Nintendo Switch"
+      },
       {
         "title": "Pokemon Arceus",
         "system": "Nintendo Switch"
       },
       {
         "title": "Animal Crossing",
-        "system": "Nintendo Switch"
-      },
-
-      {
-        "title": "Rune Factory 5",
         "system": "Nintendo Switch"
       }
     ],
