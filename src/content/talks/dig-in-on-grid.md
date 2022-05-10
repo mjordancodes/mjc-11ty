@@ -15,6 +15,8 @@ tags:
 
 Originally written for a conference back in 2018, I've been periodically updating and re-presenting this talk at community meetups. While this talk was initially focused on CSS Grid, I have expanded it over time to be more generally about all the tools we have for manipulating layout with CSS.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/SBBFPCWIu0s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>g
+
 # Code Examples
 
 ## <a href="#multi-col">Multi-Column Layouts</a>
