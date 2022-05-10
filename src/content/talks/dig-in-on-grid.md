@@ -3,6 +3,9 @@ title: Dig In On Grid
 summary: "Originally written for a conference back in 2018, I've been periodically updating and re-presenting this talk at community meetups. While this talk was initially focused on CSS Grid, I have expanded it over time to be more generally about all the tools we have for manipulating layout with CSS. Touches on flexbox, grid, subgrid, and multi-column layout tools."
 originalDate: 6/02/2018
 updatedDate: 04/24/2022
+thumbnail: /_includes/assets/images/talks/dig-in-on-grid-event.png
+slidesThumbnail: /_includes/assets/images/talks/dig-in-on-grid-slide.png
+slidesURL: https://slides.com/mjordancodes/modern-css-layouts
 featured: true,
 tags:
   - CSS
@@ -13,9 +16,11 @@ tags:
   - Layouts
 ---
 
-Originally written for a conference back in 2018, I've been periodically updating and re-presenting this talk at community meetups. While this talk was initially focused on CSS Grid, I have expanded it over time to be more generally about all the tools we have for manipulating layout with CSS.
+## Video:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/SBBFPCWIu0s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>g
+<iframe width="560" height="315" src="https://www.youtube.com/embed/SBBFPCWIu0s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+---
 
 # Code Examples
 

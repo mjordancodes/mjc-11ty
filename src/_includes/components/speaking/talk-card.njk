@@ -9,8 +9,9 @@
   
   {% import "components/tag-list.njk" as tagList %}
   {{ tagList.tagList(talk.tags, excludeTagFromList) }}
-  
+
   <div class="card-content">
+    <img src="{{talk.thumbnail}}" />
     <p>{{ talk.summary }}</p>
   </div>
   

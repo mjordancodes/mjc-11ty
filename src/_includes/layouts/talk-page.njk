@@ -10,6 +10,14 @@ layout: layouts/base.njk
     <p>Updated Date: {{ updatedDate }}</p>
   </header>
 
+  <p>{{ summary }}</p>
+
+
+  <h2>Slides:</h2>
+  <a href="{{slidesURL}}"  target="_blank" rel="noopener noreferrer">
+    <img src="{{slidesThumbnail}}" />
+  </a>
+
 
   {{content | safe}}
 </article>
