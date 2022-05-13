@@ -112,6 +112,30 @@
         "date": "04/07/2022",
         "question": "What gift have you given led to the most unexpected response?"
       }
+    ],
+    "bestEvaluator": [
+      {
+        "date": "05/12/2022",
+        "speech": "Level 4, Speech 1: The Power of Humor in an Impromptu Speech"
+      }
     ]
-  }
+  },
+  "meetingAttendance": [
+    {
+      "date": "04/07/2022",
+      "role": "Table Topic Participant"
+    },
+    {
+      "date": "04/28/2022",
+      "role": "Speaker - Innovative Planning 1.1"
+    },
+    {
+      "date": "05/05/2022",
+      "role": "Ah Counter"
+    },
+    {
+      "date": "05/12/2022",
+      "role": "Evaluator"
+    }
+  ]
 }
