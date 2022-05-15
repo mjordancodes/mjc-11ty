@@ -14,3 +14,7 @@
 #tm-progress .not-started .level {
   /* color: var(--color-not-started); */
 }
+
+#attendance .upcoming {
+  color: var(--color-light-gray);
+}

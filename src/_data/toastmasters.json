@@ -18,7 +18,12 @@
               "dateCompleted": "04/28/2022"
             },
             {
-              "project": "Evaluation and Feedback",
+              "project": "Evaluation and Feedback - Speech 1",
+              "title": "",
+              "dateCompleted": ""
+            },
+            {
+              "project": "Evaluation and Feedback - Speech 2",
               "title": "",
               "dateCompleted": ""
             },
@@ -136,6 +141,36 @@
     {
       "date": "05/12/2022",
       "role": "Evaluator"
+    }
+  ],
+  "upcomingMeetings": [
+    {
+      "date": "05/19/2022",
+      "role": "Grammarian"
+    },
+    {
+      "date": "05/26/2022",
+      "role": "Timer"
+    },
+    {
+      "date": "06/02/2022",
+      "role": "Evaluator"
+    },
+    {
+      "date": "06/09/2022",
+      "role": "Toastmaster"
+    },
+    {
+      "date": "06/16/2022",
+      "role": "Speaker"
+    },
+    {
+      "date": "06/23/2022",
+      "role": ""
+    },
+    {
+      "date": "06/30/2022",
+      "role": ""
     }
   ]
 }

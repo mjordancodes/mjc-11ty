@@ -102,6 +102,12 @@ permalink: /speaking/toastmasters/
         {{meeting.date}} | {{meeting.role}} 
       </li>
     {% endfor %}
+
+    {% for meeting in toastmasters.upcomingMeetings %}
+      <li class="upcoming">
+        {{meeting.date}} | {{meeting.role}} 
+      </li>
+    {% endfor %}
   </ul>
 </article>
 
