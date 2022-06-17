@@ -5,23 +5,7 @@ permalink: /speaking/toastmasters/
 
 <article id="tm-intro">
   <p>
-    I am not the kind of person who is naturally comfortable speaking in front of any number of people. In fact, I have spent the majority of my life actively avoiding it. In school, I'd frequently take 0's on assignments/presentations becasue I refused to speak in front of the class.
-  </p>
-
-  <p>
-    Shortly after entering tech, I accidentally became a volunteer for Women Who Code Portland. As part of my volunteer work, I had to introduce speakers at our events and give a introduction to Women Who Code and our chapter. I was also expected to greet everyone as they came in and generally facilitate conversation. Definitely not in my comfort zone.
-  </p>
-
-  <p>
-    I figured if I was going to have to regularly speak in front of people and with strangers, I might as well learn how to do it right. I really don't like being bad at things that I have committed to doing.
-  </p>
-
-  <p>
-    With that in mind, I joined a Toastmasters club in February of 2018, and stayed a member through the end of the year. I had to leave the club when I moved and could no longer reasonably make meetings.
-  </p>
-
-  <p>
-    Jump forward a couple of COVID filled years of isolation, I  rejoined Toastmasters (April 2022) to improve speaking and presenting especially in online settings. 
+    I am not the kind of person who is naturally comfortable speaking in front of any number of people. In fact, I have spent the majority of my life actively avoiding it. In school, I'd frequently take 0's on assignments/presentations because I refused to speak in front of the class.
   </p>
 </article>
 
@@ -44,6 +28,9 @@ permalink: /speaking/toastmasters/
                   <span>{{project.title}}</span>
                   <span>Completed: {{project.dateCompleted}}</span>
                 {% endif %}
+                {% if project.youtubeURL %} 
+                  <iframe width="560" height="315" src="{{project.youtubeURL}}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                 {% endif %}
               </li>
           {% endfor %}
         </ol>
@@ -110,5 +97,4 @@ permalink: /speaking/toastmasters/
     {% endfor %}
   </ul>
 </article>
-
 

@@ -15,12 +15,14 @@
             {
               "project": "Ice Breaker",
               "title": "Sum of My Names",
-              "dateCompleted": "04/28/2022"
+              "dateCompleted": "04/28/2022",
+              "youtubeURL": "https://www.youtube-nocookie.com/embed/mTlgcnB2hB4"
             },
             {
               "project": "Evaluation and Feedback - Speech 1",
               "title": "How to Shave a Yak",
-              "dateCompleted": "06/16/2022"
+              "dateCompleted": "06/16/2022",
+              "youtubeURL": "https://www.youtube-nocookie.com/embed/xNolv-z9hvM"
             },
             {
               "project": "Evaluation and Feedback - Speech 2",
@@ -160,7 +162,7 @@
     },
     {
       "date": "06/16/2022",
-      "role": "Speaker - Innovative Planning 1.2a "
+      "role": "Speaker - Innovative Planning 1.2 "
     }
   ],
   "upcomingMeetings": [
@@ -170,6 +172,18 @@
     },
     {
       "date": "06/30/2022",
+      "role": "End of Year Party - no roles"
+    },
+    {
+      "date": "07/14/2022",
+      "role": "Quiz Master"
+    },
+    {
+      "date": "08/11/2022",
+      "role": "General Evaluator"
+    },
+    {
+      "date": "09/01/2022",
       "role": ""
     }
   ]
