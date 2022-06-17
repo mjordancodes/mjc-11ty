@@ -19,8 +19,8 @@
             },
             {
               "project": "Evaluation and Feedback - Speech 1",
-              "title": "",
-              "dateCompleted": ""
+              "title": "How to Shave a Yak",
+              "dateCompleted": "06/16/2022"
             },
             {
               "project": "Evaluation and Feedback - Speech 2",
@@ -145,9 +145,7 @@
     {
       "date": "05/19/2022",
       "role": "Grammarian"
-    }
-  ],
-  "upcomingMeetings": [
+    },
     {
       "date": "05/26/2022",
       "role": "Timer"
@@ -162,8 +160,10 @@
     },
     {
       "date": "06/16/2022",
-      "role": "Speaker"
-    },
+      "role": "Speaker - Innovative Planning 1.2a "
+    }
+  ],
+  "upcomingMeetings": [
     {
       "date": "06/23/2022",
       "role": "Speaker"
