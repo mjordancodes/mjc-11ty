@@ -26,8 +26,9 @@
             },
             {
               "project": "Evaluation and Feedback - Speech 2",
-              "title": "",
-              "dateCompleted": ""
+              "title": "How to Shave a Yak",
+              "dateCompleted": "06/23/2022",
+              "youtubeURL": "https://www.youtube-nocookie.com/embed/VS3An9bQ48o"
             },
             {
               "project": "Researching and Presenting",
@@ -163,13 +164,13 @@
     {
       "date": "06/16/2022",
       "role": "Speaker - Innovative Planning 1.2 "
+    },
+    {
+      "date": "06/23/2022",
+      "role": "Speaker - Innovative Planning 1.3"
     }
   ],
   "upcomingMeetings": [
-    {
-      "date": "06/23/2022",
-      "role": "Speaker"
-    },
     {
       "date": "06/30/2022",
       "role": "End of Year Party - no roles"
