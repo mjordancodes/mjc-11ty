@@ -108,27 +108,23 @@
     "readable": "mJordan.codes"
   },
   "now": {
-    "updated": "June 16, 2022",
+    "updated": "July 18, 2022",
     "reading": {
-      "title": "Path of Daggers",
+      "title": "Crossroads of Twilight",
       "author": "Robert Jordan",
       "series": "The Wheel of Time",
-      "number": "8",
+      "number": "10",
       "genre": ["Fantasy", "Fiction", "Action & Adventure"],
-      "pages": "669"
+      "pages": "627"
     },
     "playing": [
       {
+        "title": "Animal Crossing",
+        "system": "Nintendo Switch"
+      },
+      {
         "title": "Final Fantasy XIV",
         "system": "PC"
-      },
-      {
-        "title": "Cozy Grove",
-        "system": "Nintendo Switch"
-      },
-      {
-        "title": "Pokemon Arceus",
-        "system": "Nintendo Switch"
       }
     ],
     "teching": ["three.js", "11ty", "React"],
