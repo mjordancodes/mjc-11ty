@@ -108,29 +108,25 @@
     "readable": "mJordan.codes"
   },
   "now": {
-    "updated": "July 18, 2022",
+    "updated": "October 4, 2022",
     "reading": {
-      "title": "Crossroads of Twilight",
-      "author": "Robert Jordan",
-      "series": "The Wheel of Time",
-      "number": "10",
+      "title": "The Well of Ascension",
+      "author": "Brandon Sanderson",
+      "series": "Mistborn",
+      "number": "2",
       "genre": ["Fantasy", "Fiction", "Action & Adventure"],
-      "pages": "627"
+      "pages": "764"
     },
     "playing": [
-      {
-        "title": "Animal Crossing",
-        "system": "Nintendo Switch"
-      },
       {
         "title": "Final Fantasy XIV",
         "system": "PC"
       }
     ],
-    "teching": ["three.js", "11ty", "React"],
+    "teching": ["three.js", "React"],
     "crafting": {
-      "title": "Stickers!",
-      "description": "Drawing new art (mostly around my dogs) to get printed as stickers"
+      "title": "Inktober!",
+      "description": "Trying to keep up with my daily Inktober prompts for the month"
     }
   }
 }

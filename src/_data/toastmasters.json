@@ -10,7 +10,7 @@
       "levels": [
         {
           "level": "1",
-          "status": "in-progress",
+          "status": "complete",
           "projects": [
             {
               "project": "Ice Breaker",
@@ -32,14 +32,14 @@
             },
             {
               "project": "Researching and Presenting",
-              "title": "",
-              "dateCompleted": ""
+              "title": "The Function of a Rubber Duck",
+              "dateCompleted": "09/29/2022"
             }
           ]
         },
         {
           "level": "2",
-          "status": "not started",
+          "status": "in-progress",
           "projects": [
             {
               "project": "Understanding Your Leadership Style",
@@ -168,24 +168,72 @@
     {
       "date": "06/23/2022",
       "role": "Speaker - Innovative Planning 1.3"
+    },
+    {
+      "date": "08/04/2022",
+      "role": "none"
+    },
+    {
+      "date": "08/11/2022",
+      "role": "none"
+    },
+    {
+      "date": "09/1/2022",
+      "role": "none"
+    },
+    {
+      "date": "09/08/2022",
+      "role": "Grammarian"
+    },
+    {
+      "date": "09/15/2022",
+      "role": "Inspirator"
+    },
+    {
+      "date": "09/22/2022",
+      "role": "none"
+    },
+    {
+      "date": "09/08/2022",
+      "role": "Speaker - Innovative Planning 1.4"
     }
   ],
   "upcomingMeetings": [
     {
-      "date": "06/30/2022",
-      "role": "End of Year Party - no roles"
-    },
-    {
-      "date": "07/14/2022",
-      "role": "Quiz Master"
-    },
-    {
-      "date": "08/11/2022",
+      "date": "10/6/2022",
       "role": "General Evaluator"
     },
     {
-      "date": "09/01/2022",
+      "date": "10/13/2022",
+      "role": "Toastmaster"
+    },
+    {
+      "date": "10/20/2022",
+      "role": "Inspirator"
+    },
+    {
+      "date": "10/27/2022",
+      "role": "Timer"
+    },
+    {
+      "date": "11/03/2022",
       "role": ""
+    },
+    {
+      "date": "11/10/2022",
+      "role": "Ah Counter"
+    },
+    {
+      "date": "12/01/2022",
+      "role": "Table Topics Master"
+    },
+    {
+      "date": "12/08/2022",
+      "role": ""
+    },
+    {
+      "date": "12/15/2022",
+      "role": "Speaker"
     }
   ]
 }
